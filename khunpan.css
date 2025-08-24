@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+.oor {
+ max-width: 600px;
+ margin: auto;
+ box-sizing: border-box;
+ padding: 30px;
+ border-radius: 8px 8px 0 0;
+ color: var(--bgr);
+ background: var(--pbr);
+}
+
+.od {
+ display: flex;
+ gap: 3%;
+ align-items: center;
+}
+
+.oe {width: fit-content;}
+
+.ob {
+ width: fit-content;
+ margin-right: auto;
+}
+
+.ofb {
+ width: 70%;
+ display: flex;
+ border-radius: 15px;
+ margin-top: 30px;
+ font-family: Bai Jamjuree;
+}
+
+.ou {
+ width: 30%;
+ aspect-ratio: 1 / 1;
+ border-radius: 20px 0 0 20px;
+ background: var(--oucer),#c7c7c7;
+}
+
+#ole {
+ width: 60%;
+ background: var(--gpr);
+ border-radius: 0 20px 20px 0;
+ padding: 0 20px;
+ align-content: center;
+}
+
+#os {
+ font-size: 12px;
+ margin-top: -5px;
+ color: #7e7e7e;
+}
+
+.orp {
+ width: 100%;
+ text-align: justify;
+ font-size: clamp(0.7rem, 1rem, 1rem);
+ font-family: Bai Jamjuree;
+ margin-top: 30px;
+}
+
+.on1 {
+ max-width: 600px;
+ margin: auto;
+ box-sizing: border-box;
+ padding: 20px 10px;
+ border-radius: 0 0 8px 8px;
+ color: var(--bgr);
+ background: var(--pbr);
+ border-top: 1px solid #e6e6e6;
+}
+
+.on2 {
+ width: 95%;
+ margin: auto;
+ border-radius: 100px;
+ background: var(--gpr);
+ box-sizing: border-box;
+ padding: 10px 20px;
+ display: flex;
+ align-items: center;
+ gap: 3%;
+ color: #8c8c8c;
+ font-family: Bai Jamjuree;
+}
