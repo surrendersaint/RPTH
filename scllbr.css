@@ -1,0 +1,7 @@
+#scr-b {
+   overflow: auto;
+}
+
+#scr-b::-webkit-scrollbar {
+   display: none;
+}
