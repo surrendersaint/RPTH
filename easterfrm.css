@@ -1,0 +1,8 @@
+.easterfrm {
+   width: 180px;
+   aspect-ratio: 1 / 1;
+   background: url(https://i.imgur.com/H6vOJcT.png);
+   position: absolute;
+   top: -65px;
+   right: 260px;
+}
