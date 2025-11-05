@@ -1,0 +1,68 @@
+#lkc-bb {
+  max-width: 650px;
+  margin: 2% auto;
+  position: relative;
+}
+
+.lkc-b {
+  width: 100%;
+  border-radius: 22px;
+  background: url(https://iili.io/KQkHZZP.png) center / cover, #c3bab1;
+  position: relative;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 20px solid transparent;
+  border-image: url(https://iili.io/KZDm9vS.png) 124 stretch;
+}
+
+.lkc-f {
+  width: 100%;
+  display: flex;
+  gap: 3%;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+.w {
+  width: 14%;
+}
+
+.lkc-t {
+  width: fit-content;
+  height: fit-content;
+  background: #868e80;
+  box-sizing: border-box;
+  padding: 1% 3%;
+  border-radius: 7px;
+  font: 14px Playpen Sans Thai;
+  color: #f5ede4;
+}
+
+.lkc-f {
+  width: 100%;
+  background: #f5ede4;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 1px dashed #868e80;
+  font: clamp(0.8rem, 0.9vw, 0.94rem) Maitree;
+  color: #5e564d;
+}
+
+#lkc-p {
+  width: 8%;
+  rotate: 21deg;
+  position: absolute;
+  bottom: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#lkc-m {
+  width: 77%;
+  pointer-events: none;
+  user-select: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
