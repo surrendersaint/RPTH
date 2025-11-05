@@ -51,6 +51,8 @@
 
 #lkc-p {
   width: 8%;
+  aspect-ratio: 236 / 216;
+  background: url(https://iili.io/KZbh6UN.png) center/cover;
   rotate: 21deg;
   position: absolute;
   bottom: -45px;
@@ -60,11 +62,14 @@
 
 #lkc-m {
   width: 77%;
+  aspect-ratio: 650 / 300;
+  background: url(https://iili.io/KZbZRSI.png) center/cover;
   pointer-events: none;
   user-select: none;
   position: absolute;
   top: 0px;
   right: 0px;
 }
+
 
 
