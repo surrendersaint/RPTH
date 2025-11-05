@@ -1,4 +1,4 @@
-#lkc-bb {
+.lkc-bb {
   max-width: 650px;
   margin: 2% auto;
   position: relative;
@@ -23,7 +23,7 @@
   margin-bottom: 3%;
 }
 
-.w {
+.lkc-l {
   width: 14%;
 }
 
@@ -65,4 +65,5 @@
   position: absolute;
   top: 0px;
   right: 0px;
+
 }
