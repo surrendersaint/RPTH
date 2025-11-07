@@ -34,7 +34,7 @@
   border-radius: 4px;
   box-sizing: border-box;
   flex: 1;
-  font: clamp(0.85rem, 0.9vw, 1rem) "Maitree", serif;
+  font: clamp(0.85rem, 1vw, 1rem) "Maitree", serif;
   color: #7e685e;
 }
 
@@ -64,3 +64,4 @@
 
   font: clamp(0.6rem, 0.9vw, 0.94rem) "Maitree", serif;
 }
+
