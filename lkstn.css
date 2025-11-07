@@ -1,0 +1,66 @@
+.ct-tv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  margin: 3% auto;
+  box-sizing: border-box;
+}
+
+.ct-bt {
+  width: 22%;
+  aspect-ratio: 1 / 1;
+  border-radius: 100%;
+  border: 2px solid #897c7c;
+  box-sizing: border-box;
+}
+
+.ct-n {
+  width: 100%;
+  margin: 2% auto;
+  padding: 1% 3%;
+  background: #c3929a;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font: clamp(0.85rem, 1vw, 1.2rem) "Playpen Sans Thai", sans-serif;
+  color: #fff2e6;
+  text-align: center;
+}
+
+.ct-i {
+  width: 100%;
+  padding: 4%;
+  background: #e1d8d0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  flex: 1;
+  font: clamp(0.85rem, 0.9vw, 1rem) "Maitree", serif;
+  color: #7e685e;
+}
+
+.ct-pct {
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  z-index: 5;
+}
+
+.ct-s {
+  height: 100%;
+  background: #becdb2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 100px;
+}
+
+.ct-tb {
+  width: 100%;
+  margin: 2% auto;
+  padding: 4%;
+  background: #a39797;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  font: clamp(0.6rem, 0.9vw, 0.94rem) "Maitree", serif;
+}
