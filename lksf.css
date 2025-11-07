@@ -34,7 +34,7 @@
   box-sizing: border-box;
   padding: 1% 3%;
   border-radius: 7px;
-  font: 14px Playpen Sans Thai;
+  font: 16px Playpen Sans Thai;
   color: #f5ede4;
 }
 
@@ -45,7 +45,7 @@
   box-sizing: border-box;
   padding: 20px;
   border: 1px dashed #868e80;
-  font: clamp(0.8rem, 0.9vw, 0.94rem) Maitree;
+  font: clamp(0.85rem, 0.9vw, 1.2rem) Maitree;
   color: #5e564d;
 }
 
@@ -70,3 +70,4 @@
   top: 0px;
   right: 0px;
 }
+
