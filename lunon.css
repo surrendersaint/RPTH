@@ -42,7 +42,7 @@
   width: 138px;
   height: 52px;
   border-radius: 5px 5px 0 0;
-  background: url(https://iili.io/Kb9TDzv.png) #0D0C0B 50% / cover no-repeat;
+  background: var(--mtzf);
   mix-blend-mode: difference;
   position: absolute;
   bottom: 0;
@@ -201,3 +201,4 @@
 .mtz-scroll::-webkit-scrollbar {
   display: none;
 }
+
