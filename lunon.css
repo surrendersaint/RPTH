@@ -21,7 +21,7 @@
   width: 100%;
   height: 270px;
   opacity: 0.5;
-  background: url(https://iili.io/KDy5rOu.png) center/cover;
+  background: var(--mtzh);
   position: absolute;
   left: 0;
   top: 0;
@@ -139,6 +139,7 @@
 .mtz-gallery {
   display: flex;
   gap: 10px;
+  position: relative;
 }
 
 .mtz-item-1 {
@@ -146,21 +147,21 @@
   height: 145px;
   border-radius: 5px;
   border: 1px solid #454545;
-  background: url(https://iili.io/KDytegn.png) #0d0d0c 50% / cover no-repeat;
+  background: var(--mtzl);
 }
 .mtz-item-2 {
   flex: 1;
   height: 145px;
   border-radius: 5px;
   border: 1px solid #454545;
-  background: url(https://iili.io/KDyDaI4.png) #0d0d0c 50% / cover no-repeat;
+  background: var(--mtzm);
 }
 .mtz-item-3 {
   flex: 1;
   height: 145px;
   border-radius: 5px;
   border: 1px solid #454545;
-  background: url(https://iili.io/KDyDsQp.png) #0d0d0c 50% / cover no-repeat;
+  background: var(--mtzr);
 }
 
 .mtz-text {
@@ -199,5 +200,4 @@
 
 .mtz-scroll::-webkit-scrollbar {
   display: none;
-
 }
