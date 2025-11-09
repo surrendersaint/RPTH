@@ -25,6 +25,7 @@
   position: absolute;
   left: 0;
   top: 0;
+  pointer-events: none;
 }
 
 #mt .b {
@@ -36,6 +37,7 @@
   opacity: 0.25;
   mix-blend-mode: lighten;
   background: url(https://iili.io/KDy5iWx.png) center/cover;
+  pointer-events: none;
 }
 
 #mt .c {
