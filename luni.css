@@ -1,8 +1,6 @@
-/* --- Imports (จากแท็ก <link> ในโค้ดของคุณ) --- */
 @import url('https://fonts.cdnfonts.com/css/arriere-garde');
 @import url('https://zirmatt.github.io/RPTH/halloween.css');
 
-/* --- 1. โครงสร้างหลัก (Main Card) --- */
 .mtz-card {
   -webkit-font-smoothing: antialiased;
   font-family: 'Matthew', sans-serif;
@@ -20,7 +18,6 @@
   flex-direction: column;
 }
 
-/* --- 2. องค์ประกอบพื้นหลัง (Background Elements) --- */
 .mtz-header-bg {
   width: 100%;
   height: 270px;
@@ -53,10 +50,9 @@
   right: 48px;
 }
 
-/* --- 3. แถบนำทาง (Navigation) --- */
 .mtz-nav-wrapper {
   position: relative;
-  z-index: 10; /* เพิ่ม z-index เพื่อให้คลิกได้ */
+  z-index: 10;
 }
 
 .mtz-nav {
@@ -74,9 +70,6 @@
   gap: 8px;
 }
 
-/* --- 4. ปุ่ม (Buttons) --- */
-
-/* สไตล์พื้นฐานของปุ่ม */
 .mtz-btn {
   display: inline-flex;
   padding: 2px 8px;
@@ -91,17 +84,13 @@
   text-decoration: none;
 }
 
-/* ปุ่มแบบไอคอนอย่างเดียว */
 .mtz-btn-icon {
   width: 22px;
   height: 22px;
-  padding: 0; /* ลบ padding เดิม */
-  gap: 0; /* ลบ gap เดิม */
+  padding: 0;
+  gap: 0;
 }
 
-/* --- 5. ไอคอน SVG (::before) --- */
-
-/* ไอคอน: ลูกศรย้อนกลับ */
 .mtz-btn-back::before {
   content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10' fill='white'%3e%3cpath d='M4.3551 9.35523L0 5.00012L4.3551 0.64502L5.28313 1.57304L1.85604 5.00012L5.28313 8.42721L4.3551 9.35523Z'/%3e%3c/svg%3e");
   display: inline-block;
@@ -109,7 +98,6 @@
   height: 10px;
 }
 
-/* ไอคอน: พระอาทิตย์ (ปุ่มตั้งค่า) */
 .mtz-btn-icon::before {
   content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10' fill='white'%3e%3cpath d='M4.44788 2.17163V0.234131H5.55205V2.17163H4.44788ZM7.38361 3.38809L6.61632 2.6209L7.97736 1.24049L8.75496 2.01674L7.38361 3.38809ZM7.8283 5.55205V4.44788H9.7658V5.55205H7.8283ZM4.44788 9.7658V7.8283H5.55205V9.7658H4.44788ZM2.61632 3.37903L1.24049 2.02851L2.02851 1.25674L3.39403 2.62226L2.61632 3.37903ZM7.96694 8.77121L6.61632 7.37319L7.37319 6.61632L8.74903 7.94476L7.96694 8.77121ZM0.234131 5.55205V4.44788H2.17163V5.55205H0.234131ZM2.02851 8.75944L1.2509 7.97142L2.61184 6.61049L3.00809 6.99184L3.41028 7.37767L2.02851 8.75944ZM4.99861 7.45288C4.31687 7.45288 3.73785 7.21427 3.26153 6.73705C2.78521 6.25983 2.54705 5.68035 2.54705 4.99861C2.54705 4.31687 2.78566 3.73785 3.26288 3.26153C3.7401 2.78521 4.31958 2.54705 5.00132 2.54705C5.68305 2.54705 6.26208 2.78566 6.7384 3.26288C7.21472 3.7401 7.45288 4.31958 7.45288 5.00132C7.45288 5.68306 7.21427 6.26208 6.73705 6.7384C6.25983 7.21472 5.68035 7.45288 4.99861 7.45288ZM4.99996 6.34871C5.37587 6.34871 5.69462 6.21788 5.95621 5.95621C6.21788 5.69462 6.34871 5.37587 6.34871 4.99996C6.34871 4.62406 6.21788 4.30531 5.95621 4.04371C5.69462 3.78205 5.37587 3.65121 4.99996 3.65121C4.62406 3.65121 4.30531 3.78205 4.04371 4.04371C3.78205 4.30531 3.65121 4.62406 3.65121 4.99996C3.65121 5.37587 3.78205 5.69462 4.04371 5.95621C4.30531 6.21788 4.62406 6.34871 4.99996 6.34871Z'/%3e%3c/svg%3e");
   display: inline-block;
@@ -117,14 +105,11 @@
   height: 10px;
 }
 
-/* --- 6. ข้อมูลผู้ใช้ (User Info) --- */
 .mtz-user {
   display: flex;
   flex-direction: column;
   align-items: end;
-  margin-top: 36px;
-  margin-bottom: 48px;
-  position: relative; /* เพื่อให้ข้อความอยู่เหนือพื้นหลัง */
+  position: relative;
   z-index: 5;
 }
 
@@ -147,7 +132,6 @@
   text-transform: uppercase;
 }
 
-/* --- 7. แกลเลอรี (Gallery) --- */
 .mtz-gallery {
   display: flex;
   gap: 10px;
@@ -160,13 +144,12 @@
   height: 145px;
   border-radius: 5px;
   border: 1px solid #454545;
-  background-color: #0d0d0c; /* สีพื้นฐาน */
+  background-color: #0d0d0c;
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-/* คลาสแยกสำหรับแต่ละภาพ */
 .mtz-item-1 {
   background-image: url(https://iili.io/KDytegn.png);
 }
@@ -177,7 +160,6 @@
   background-image: url(https://iili.io/KDyDsQp.png);
 }
 
-/* --- 8. เนื้อหา (Content) --- */
 .mtz-text {
   color: #A09F9B;
   line-height: 160%;
@@ -187,7 +169,6 @@
   z-index: 5;
 }
 
-/* --- 9. แถบ Footer (Footer Bar) --- */
 .mtz-fbar {
   width: 409px;
   height: 15px;
@@ -207,12 +188,12 @@
   margin: -8px 10px;
   display: flex;
   gap: 10px;
-  align-items: flex-start; /* จัดให้อยู่ด้านบน */
+  align-items: flex-start;
 }
 
 .mtz-note i {
-  font-style: italic; /* ทำให้ตัว i เอียง */
-  flex-shrink: 0; /* ไม่ให้ตัว i หด */
+  font-style: italic;
+  flex-shrink: 0;
 }
 
 .mtz-scroll {
@@ -222,7 +203,7 @@
   padding-right: 10px;
 }
 
-/* ซ่อน scrollbar (จาก <style> ในโค้ดของคุณ) */
 .mtz-scroll::-webkit-scrollbar {
   display: none;
 }
+
