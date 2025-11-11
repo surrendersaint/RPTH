@@ -33,6 +33,10 @@
  position: relative;
 }
 
+#tys .g {
+ color: #666;
+}
+
 #tys .ic {
  width: fit-content;
  margin: auto auto 1% auto;
@@ -171,3 +175,4 @@
  background: var(--รองเท้า);
 
 }
+
