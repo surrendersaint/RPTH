@@ -37,10 +37,7 @@
   color: #666;
 }
 
-#tys n-y {
-  font: clamp(1rem, 1.3vw, 1.5rem) Quicksand,Maitree;
-  margin-bottom: 1%;
-}
+#tys n-y {font: clamp(1rem, 1.3vw, 1.5rem) Quicksand,Maitree; margin-bottom: 1%; color: #fff;}
 
 #tys .ic {
  width: fit-content;
@@ -76,6 +73,7 @@
 #tys .tb {
  width: 90%;
  margin: 3% auto;
+ color: #7a7a7a;
 }
 
 #tys .f {
@@ -88,11 +86,13 @@
 #tys .name {
  font: clamp(1rem, 1.3vw, 1.5rem) Quicksand;
  text-align: center;
+ color: #fff;
 }
 
 #tys .info {
  font: clamp(0.5rem, 0.7vw, 0.8rem) Quicksand;
  text-align: center;
+ color: #fff;
 }
 
 #tys .li {
@@ -179,6 +179,7 @@
  border-radius: 15px;
  background: var(--รองเท้า);
 }
+
 
 
 
