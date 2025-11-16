@@ -37,7 +37,7 @@
   color: #666;
 }
 
-#tys y {
+#tys n-y {
   font: clamp(1rem, 1.3vw, 1.5rem) Quicksand,Maitree;
   margin-bottom: 1%;
 }
@@ -179,5 +179,6 @@
  border-radius: 15px;
  background: var(--รองเท้า);
 }
+
 
 
