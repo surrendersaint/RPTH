@@ -49,10 +49,6 @@
  font: clamp(0.65rem, 0.9vw, 1rem) Quicksand;
 }
 
-#tys .ic::before {
- content: "TUCK YOUR SHIRT";
-}
-
 #tys .bb {
  max-width: 50%;
  margin: auto;
@@ -112,24 +108,10 @@
  background: var(--ท่อนบน);
 }
 
-#tys .fy1 {
+#tys .fy {
  font: clamp(0.9rem, 1.2vw, 1.5rem) Quicksand;
  margin-top: 2%;
  color: #8d8d8d;
-}
-
-#tys .fy1::before {
- content: "Top";
-}
-
-#tys .fy2 {
- font: clamp(0.9rem, 1.2vw, 1.5rem) Quicksand;
- margin-top: 2%;
- color: #8d8d8d;
-}
-
-#tys .fy2::before {
- content: "Bottom";
 }
 
 #tys .jhl {
@@ -145,24 +127,10 @@
  background: var(--เครื่องประดับซ้าย);
 }
 
-#tys .fl1 {
+#tys .fl {
  font: clamp(0.7rem, 1vw, 1.3rem) Quicksand;
  margin-top: 2%;
  color: #8d8d8d;
-}
-
-#tys .fl1::before {
- content: "Accessory";
-}
-
-#tys .fl2 {
- font: clamp(0.7rem, 1vw, 1.3rem) Quicksand;
- margin-top: 2%;
- color: #8d8d8d;
-}
-
-#tys .fl2::before {
- content: "Footwear";
 }
 
 #tys .ri {
@@ -206,3 +174,4 @@
  border-radius: 15px;
  background: var(--รองเท้า);
 }
+
