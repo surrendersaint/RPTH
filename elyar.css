@@ -1,0 +1,86 @@
+#ely-ar {
+  width: 100%;
+  margin: 12% auto 2% auto;
+}
+
+#ely-ar .b {
+  max-width: 750px;
+  margin: auto;
+  border: 1px solid #3a3a3a;
+  background: var(--bg);
+  box-sizing: border-box;
+  padding: 0%;
+  font-family: Maitree;
+  color: #FFF;
+  font-weight: 400;
+  position: relative;
+}
+
+#ely-ar .h {
+  width: 100%;
+  aspect-ratio: 8 / 2;
+  background: linear-gradient(45deg, var(--hd), transparent), url(https://iili.io/fJLPHbI.png) center / cover;
+  background-blend-mode: color;
+  -webkit-mask-image: radial-gradient(at top, black -30%, transparent 65%);
+  pointer-events: none;
+  user-select: none;
+}
+
+#ely-ar .fc {
+  width: 18%;
+  margin: -38% auto 15% 11%;
+  position: relative;
+  aspect-ratio: 3 / 4;
+  background: var(--faceclaim);
+  border: 1px solid #3a3a3a;
+  border-radius: 50% 50% 0 0;
+}
+
+#ely-ar .a {
+  width: 30%;
+  aspect-ratio: 3 / 1;
+  background: radial-gradient(at 50% 150%, var(--aura) 20%, transparent 75%);
+  margin: -36.4% auto 25% 5%;
+}
+
+#ely-ar .ผลการแข่งขัน {
+  width: fit-content;
+  font: clamp(1rem, 1.7vw, 2rem) Maitree;
+  margin: -22% auto 25% 33%;
+  position: relative;
+  font-weight: bold;
+  text-shadow: 0 0 10px #7e7e7e;
+}
+
+#ely-ar .ผลลูกเต๋า {
+  width: fit-content;
+  font: clamp(0.7rem, 0.85vw, 0.9rem) Maitree;
+  margin: -26% auto 16% 33%;
+  position: relative;
+  font-weight: 400;
+}
+
+#ely-ar .r {
+  width: 90%;
+  margin: -13% auto auto auto;
+  box-sizing: border-box;
+  padding: 15px;
+  text-align: justify;
+  font-size: clamp(0.8rem, 1vw, 1rem);
+  line-height: 2;
+  color: #d1d1d1;
+}
+
+#ely-ar .n {
+  width: fit-content;
+  background: linear-gradient(195deg, #000 10%, var(--aura)), url(https://iili.io/fJQz9kb.png) center / cover;
+  background-blend-mode: color;
+  border: 1px solid #3a3a3a;
+  box-sizing: border-box;
+  padding: 1% 3%;
+  position: absolute;
+  top: 0px;
+  right: -1px;
+  transform: translateY(-130%);
+  font: clamp(0.9rem, 1vw, 1.1rem) Quicksand;
+}
