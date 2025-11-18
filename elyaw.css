@@ -68,7 +68,7 @@
   margin-top: 6%;
 }
 
-#ely-aw .e {
+#ely-aw .e::before {
   content: "สิ้นสุดการประลอง";
 }
 
@@ -92,4 +92,5 @@
   font-weight: 700;
   text-shadow: 0 0 18px #ababab;
   font-size: clamp(1rem, 1.1vw, 1.3rem);
+
 }
