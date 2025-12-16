@@ -112,7 +112,6 @@
   border-style: solid;
   border-width: 0 0 0 20px;
   border-color: transparent transparent transparent white;
-  margin-left: 4px;
 }
 
 #lts .it {
@@ -142,6 +141,6 @@
   font-size: 16px;
   resize: vertical;
   font-family: inherit;
-  background-color: var(--หลัง);
   outline: none;
 }
+
