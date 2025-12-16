@@ -1,0 +1,152 @@
+#lts {
+  width: 750px;
+  padding: 25px;
+  background-color: var(--หลัง, #f8f8f8);
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  font-family: 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  margin: 50px auto;
+}
+
+#lts .aa {
+  width: 250px;
+  height: 250px;
+  background-color: #e0e0e0;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #888;
+}
+
+#lts .s {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#lts .ti {
+  font-weight: 600;
+  font-size: 28px;
+  color: var(--หลัก);
+}
+
+#lts .a {
+  font-size: 20px;
+  color: #777;
+  margin-top: 5px;
+}
+
+#lts .pi {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#lts .t {
+  font-size: 16px;
+  color: #777;
+}
+
+#lts .pb {
+  flex-grow: 1;
+  height: 6px;
+  background-color: #e0e0e0;
+  border-radius: 3px;
+  margin: 0 15px;
+  position: relative;
+}
+
+#lts .pf {
+  width: 40%;
+  height: 100%;
+  background-color: var(--บาร์, #555555);
+  border-radius: 3px;
+}
+
+#lts .pd {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 14px;
+  height: 14px;
+  background-color: var(--บาร์, #555555);
+  border-radius: 50%;
+}
+
+#lts .c {
+  font-size: 16px;
+  color: #777;
+}
+
+#lts .cb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+#lts .e {
+  font-size: 36px;
+  color: var(--หลัก);
+  cursor: pointer;
+}
+
+#lts .cb {
+  width: 70px;
+  height: 70px;
+  background-color: var(--หลัก, #333333);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#lts .pi {
+  width: 0;
+  height: 28px;
+  border-style: solid;
+  border-width: 0 0 0 20px;
+  border-color: transparent transparent transparent white;
+  margin-left: 4px;
+}
+
+#lts .it {
+  width: 100%;
+  padding-top: 25px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#lts .il {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--หลัก);
+  margin-bottom: 10px;
+  width: 90%;
+  text-align: left;
+}
+
+#lts .is {
+  width: 90%;
+  min-height: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: vertical;
+  font-family: inherit;
+  background-color: var(--หลัง, #f8f8f8);
+}
