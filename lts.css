@@ -1,6 +1,6 @@
 #lts {
   width: 750px;
-  padding: 25px;
+  padding: 100px 25px 75px 25px;
   margin: 50px auto;
   background-color: var(--หลัง);
   border-radius: 20px;
@@ -139,7 +139,9 @@
   resize: vertical;
   font-family: inherit;
   outline: none;
+  color: var(--รอง);
 }
+
 
 
 
