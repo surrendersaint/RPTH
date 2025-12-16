@@ -107,11 +107,7 @@
 }
 
 #lts .p {
-  width: 0;
-  height: 28px;
-  border-style: solid;
-  border-width: 0 0 0 20px;
-  border-color: transparent transparent transparent white;
+  color: var(--หลัง);
 }
 
 #lts .it {
@@ -143,4 +139,5 @@
   font-family: inherit;
   outline: none;
 }
+
 
