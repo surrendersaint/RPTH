@@ -19,14 +19,6 @@
  -webkit-mask-image: linear-gradient(180deg, black, transparent 92%);
 }
 
-#earcoap .hrm {
- text-align: center;
- color: #ffffff;
- margin-top: -4%;
- font-style: italic;
- font-family: 'Montserrat';
-}
-
 #earcoap .lg {
  width: 57%;
  user-select: none;
@@ -80,4 +72,12 @@
  margin-top: 35px;
  user-select: none;
  pointer-events: none;
+}
+
+.hrm {
+ text-align: center;
+ color: #ffffff;
+ margin-top: -4%;
+ font-style: italic;
+ font-family: 'Montserrat';
 }
