@@ -43,7 +43,7 @@
 }
 
 #earco .name {
- font: clamp(2rem, 2vw, 3rem) EB Garamond;
+ font: clamp(1.5rem, 2vw, 3rem) EB Garamond;
  text-transform: uppercase;
 }
 
