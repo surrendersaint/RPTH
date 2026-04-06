@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@400;500;600&family=Playpen+Sans+Thai&display=swap');
+
+#ca {
+ max-width: 800px;
+ margin: auto;
+ border-radius: 8px;
+ background: url(https://cdn.imgchest.com/files/c4dc162f5088.png) center/110%,#fef3e3;
+ box-sizing: border-box;
+ padding: 30px;
+ box-shadow: inset 0 0 50px #b7a89a;
+ color: #000;
+}
+
+#ca .log {
+  width: 30%;
+ aspect-ratio: 600 / 300;
+ background: url(https://cdn.imgchest.com/files/c2510a9f8568.png) center/cover;
+ margin: auto auto 5% auto;
+}
+
+#ca .b {
+ font: 16px Kodchasan;
+ width: 90%;
+ margin: auto;
+}
+
+#ca .f {
+ width: 100%;
+ display: flex;
+ gap: 3%;
+}
+
+#ca .ft {
+ width: 50%;
+}
+
+#ca .nt {
+ width: 90%;
+}
+
+#ca .is {
+ width: 100%;
+ box-sizing: border-box;
+ padding: 8px 15px;
+ background: #fff5ea;
+ border-radius: 6px;
+ box-shadow: inset 0 0 7px #c3ae96;
+ margin: 2% auto 5% auto;
+ border: 1px dashed #bda58d;
+}
+
+#ca .rp {
+ width: 100%;
+ box-sizing: border-box;
+ padding: 8px 15px;
+ background: #fff5ea;
+ border-radius: 6px;
+ box-shadow: inset 0 0 7px #c3ae96;
+ margin: 2% auto 5% auto;
+ border: 1px dashed #bda58d;
+ font-size: clamp(0.8rem, 1vw, 1rem);
+ text-align: justify;
+ line-height: 2;
+}
