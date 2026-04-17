@@ -182,3 +182,21 @@
  border-radius: 15px;
  background: var(--ไอเทม5);
 }
+
+#tys .el1 {
+  width: 20%;
+  aspect-ratio: 250 / 168;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(-50%, 294%);
+}
+
+#tys .el2 {
+  width: 27%;
+  aspect-ratio: 250 / 168;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  transform: translate(51%, -70%) rotate(-15deg);
+}
