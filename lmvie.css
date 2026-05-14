@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:opsz,wght,GRAD@17..18,400..700,-50..200&family=Smooch+Sans:wght@100..900&display=swap');
+
+#lmvie-w {
+  max-width: 750px;
+  margin: auto;
+  background: #FFF;
+  box-sizing: border-box;
+  padding: 0 30px 20px 30px;
+  border-radius: 8px;
+}
+
+#imvie-w .hd {
+  width: 100%;
+  display: flex;
+  color: #000;
+  align-items: center;
+  gap: 2%;
+  font: clamp(1.2rem, 1.3vw, 1.4rem) Smooch Sans;
+}
+
+#lmvie-w .log {
+  background: url(https://cdn.imgchest.com/files/6b6a799b294f.png) center/cover;
+  aspect-ratio: 790 / 386;
+  width: 25%;
+}
+
+#lmvie-w .race {
+  margin-left: auto;
+}
+
+#lmvie-w .quote {
+  text-align: center;
+}
+
+#lmvie-w .source {
+  font-size: 11px;
+}
+
+#lmvie-w .pr1 {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dotted #000;
+  margin-bottom: 3%;
+}
+
+#lmvie-w .s {
+  font: clamp(1rem, 1.1vw, 1.1rem) Google Sans;
+  color: #000;
+  line-height: 1.7;
+}
+
+#lmvie-w .ss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+}
+
+#lmvie-w .pic {
+  aspect-ratio: 3 / 4;
+  width: 20%;
+  border: 3px solid #000;
+}
+
+#lmvie-w .desc {
+  text-align: justify;
+  margin: 4% auto 3% auto;
+}
+
+#lmvie-w .pr2 {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dotted #000;
+}
+
+#lmvie-w .m {
+  width: 100%;
+  aspect-ratio: 16 / 4;
+  -webkit-mask-image: linear-gradient(180deg, black, transparent);
+  opacity: 40%;
+}
+
+#lmvie-w .ps {
+  position: relative;
+  margin-top: -17%;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  font-family: Google Sans;
+  color: #000;
+}
+
+#lmvie-w .cover {
+  aspect-ratio: 1 / 1;
+  width: 25%;
+  border: 3px solid #000;
+}
+
+#lmvie-w .c {
+  font-size: clamp(1rem, 1.1vw, 1.1rem);
+  max-width: 300px;
+}
+
+#lmvie-w .pn {
+  font-size: clamp(1.1rem, 1.2vw, 1.4rem);
+  font-weight: bold;
+}
+
+#lmvie-w .bp {
+  color: #000;
+  font: clamp(0.65rem, 0.75vw, 0.9rem) Google Sans;
+  margin-top: 7%;
+}
+
+#lmvie-w .f {
+  display: flex;
+  gap: 3%;
+}
+
+#lmvie-w .ft {
+  display: flex;
+  gap: 3%;
+  margin-top: 2%;
+}
+
+#lmvie-w .d {
+  width: 100%;
+}
+
+#lmvie-w .sl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 350px;
+}
+
+#lmvie-w .ls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+#lmvie-w .scover {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
+#lmvie-w .sname {
+  display: flex;
+  flex-direction: column;
+}
+
+#lmvie-w .ic {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
