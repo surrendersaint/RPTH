@@ -162,6 +162,17 @@
   display: flex;
 }
 
+#lmvie-w .poster {
+  width: fit-content;
+  margin: auto;
+  border-radius: 100px;
+  background: #8b8b8b;
+  color: #FFF;
+  border: 1px solid #606060;
+  box-sizing: border-box;
+  padding: 9px 15px;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:opsz,wght,GRAD@17..18,400..700,-50..200&family=Smooch+Sans:wght@100..900&display=swap');
 
 #lmvie-b {
@@ -324,4 +335,15 @@
   cursor: pointer;
   color: #FFF;
   display: flex;
+}
+
+#lmvie-b .poster {
+  width: fit-content;
+  margin: auto;
+  border-radius: 100px;
+  background: #0a0a0a;
+  color: #a9a9a9;
+  border: 1px solid #222222;
+  box-sizing: border-box;
+  padding: 9px 15px;
 }
