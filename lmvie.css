@@ -162,6 +162,11 @@
   display: flex;
 }
 
+#lmvie-w .link-poster {
+  width: 100%;
+  height: 100%;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:opsz,wght,GRAD@17..18,400..700,-50..200&family=Smooch+Sans:wght@100..900&display=swap');
 
 #lmvie-b {
@@ -324,4 +329,9 @@
   cursor: pointer;
   color: #FFF;
   display: flex;
+}
+
+#lmvie-b .link-poster {
+  width: 100%;
+  height: 100%;
 }
