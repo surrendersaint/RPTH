@@ -164,7 +164,7 @@
 
 #lmvie-w .poster {
   width: fit-content;
-  margin: auto;
+  margin: auto auto -5% auto;
   border-radius: 100px;
   background: #8b8b8b;
   color: #FFF;
@@ -339,7 +339,7 @@
 
 #lmvie-b .poster {
   width: fit-content;
-  margin: auto;
+  margin: auto auto -5% auto;
   border-radius: 100px;
   background: #0a0a0a;
   color: #a9a9a9;
