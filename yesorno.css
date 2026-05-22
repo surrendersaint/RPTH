@@ -1,0 +1,62 @@
+@import('https://fonts.googleapis.com/css2?family=Google+Sans:opsz,wght@17..18,400..700&family=Sriracha&display=swap')
+
+#yon {
+  max-width: 700px;
+  margin: 50px auto auto auto;
+}
+
+#yon .yesorno {
+  width: 200px;
+  aspect-ratio: 1 / 1;
+  position: relative;
+  margin: auto;
+  background: #FFF;
+  border-radius: 100%;
+}
+
+#yon .yesorno:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+#yon @keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#yon .bb {
+  width: 70%;
+  aspect-ratio: 1 / 1;
+  background: var(--เฟซเคลม), linear-gradient(45deg, var(--หลอด1), var(--หลอด2)); position: absolute; top: -88px; right: -25px;
+  background-blend-mode: luminosity;
+  mask: url(https://cdn.imgchest.com/files/bba4cc966713.png) center / cover;
+}
+
+#yon .nm {
+  width: 100%;
+  font-size: clamp(1.3rem, 1.3vw, 1.5rem);
+  margin: 30px auto 10px auto;
+}
+
+#yon .rp {
+  width: 100%;
+  background: #eaeaea;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 30px;
+  border: 12px solid transparent;
+  border-image: url(https://cdn.imgchest.com/files/e9b1163eefe5.png) round 30;
+  color: #000;
+  font: clamp(0.9rem, 1.2vw, 1.1rem) Bai Jamjuree;
+  line-height: 1.7;
+  text-align: justify;
+}
