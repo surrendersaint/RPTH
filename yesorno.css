@@ -41,7 +41,8 @@
   top: -101px;
   right: -23px;
   background-blend-mode: luminosity;
-  -webkit-mask: url(https://cdn.imgchest.com/files/bba4cc966713.png) center/cover;
+  -webkit-mask-image: url(https://cdn.imgchest.com/files/bba4cc966713.png);
+  -webkit-mask-size: cover;
 }
 
 #yon .nm {
