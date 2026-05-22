@@ -36,9 +36,9 @@
 #yon .bb {
   width: 70%;
   aspect-ratio: 1 / 1;
-  background: var(--เฟซเคลม), linear-gradient(45deg, var(--หลอด1), var(--หลอด2)); position: absolute; top: -88px; right: -25px;
+  background: url(https://cdn.imgchest.com/files/bba4cc966713.png) center/cover, linear-gradient(45deg, var(--หลอด1), var(--หลอด2)); position: absolute; top: -88px; right: -25px;
   background-blend-mode: luminosity;
-  mask: url(https://cdn.imgchest.com/files/bba4cc966713.png) center / cover;
+  mask: url(https://cdn.imgchest.com/files/bba4cc966713.png) center/cover;
 }
 
 #yon .nm {
