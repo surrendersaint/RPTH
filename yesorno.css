@@ -37,11 +37,11 @@
 #yon .bb {
   width: 67%;
   aspect-ratio: 1 / 1;
-  background: url(https://cdn.imgchest.com/files/bba4cc966713.png) center/cover, linear-gradient(45deg, var(--หลอด1), var(--หลอด2)); position: absolute;
+  background: url(https://iili.io/CHu2j99.png) center/cover, linear-gradient(45deg, var(--หลอด1), var(--หลอด2)); position: absolute;
   top: -101px;
   right: -23px;
   background-blend-mode: luminosity;
-  -webkit-mask-image: url(https://cdn.imgchest.com/files/bba4cc966713.png);
+  -webkit-mask-image: url(https://iili.io/CHu2j99.png);
   -webkit-mask-size: cover;
 }
 
