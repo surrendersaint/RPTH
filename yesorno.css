@@ -38,7 +38,7 @@
   aspect-ratio: 1 / 1;
   background: url(https://cdn.imgchest.com/files/bba4cc966713.png) center/cover, linear-gradient(45deg, var(--หลอด1), var(--หลอด2)); position: absolute; top: -88px; right: -25px;
   background-blend-mode: luminosity;
-  mask: url(https://cdn.imgchest.com/files/bba4cc966713.png) center/cover;
+  -webkit-mask: url(https://cdn.imgchest.com/files/bba4cc966713.png) center/cover;
 }
 
 #yon .nm {
