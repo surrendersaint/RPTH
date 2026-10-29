@@ -12,6 +12,7 @@
    bottom: 0px;
    left: 0px;
    font-family: Prompt;
+   backdrop-filter: blur(5px);
 }
 
 #petrichor {
