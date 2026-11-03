@@ -37,7 +37,7 @@
     margin: -120px auto auto auto;
     border-radius: 100%;
     border: 2px solid var(--wht);
-    background: url(https://i.pinimg.com/736x/83/a9/61/83a961eea5a7f1604f470631e7f8fcf0.jpg) center/cover, #000;
+    background: url(var(--pfl)) center/cover, #000;
     position: relative;
 }
 
