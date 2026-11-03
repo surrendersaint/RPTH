@@ -37,7 +37,7 @@
     margin: -120px auto auto auto;
     border-radius: 100%;
     border: 2px solid var(--wht);
-    background: url(var(--pfl)) center/cover, #000;
+    background: var(--pfl), #000;
     position: relative;
 }
 
