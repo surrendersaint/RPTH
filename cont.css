@@ -140,6 +140,15 @@
   font-size: 12px;
 }
 
+.cbnb .img {
+  width: 100%;
+  height: 41%;
+  position: absolute;
+  left: 0px;
+  top: 140px;
+  border: 1px solid var(--brown);
+}
+
 .cbnb .desc {
   display: none;
   position: absolute;
