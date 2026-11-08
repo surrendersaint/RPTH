@@ -104,7 +104,7 @@
 
 .cbnb .planbox {
   position: relative;
-  padding-bottom: 170px;
+  padding-bottom: 260px;
   margin-top: 14px;
 }
 
@@ -157,9 +157,10 @@
   left: 0;
   right: 0;
   bottom: 0;
-  height: 150px;
+  height: auto;
+  min-height: 230px;
   border-left: 6px solid var(--brown);
-  padding: 20px 0 0 14px;
+  padding: 20px 14px;
   text-align: left;
   font-weight: 400;
   font-size: 17px;
@@ -228,16 +229,15 @@
     padding: 30px 2px;
   }
   
-  .cbnb .planbox {
-    padding-bottom: 340px;
+.cbnb .planbox {
+    padding-bottom: 420px;
   }
   
   .cbnb .desc {
-    height: 320px;
+    height: auto;
     flex-direction: column;
     gap: 12px;
     padding: 15px;
-    overflow-y: auto;
   }
   
   .cbnb .d-img {
