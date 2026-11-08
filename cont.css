@@ -229,20 +229,21 @@
     padding: 30px 2px;
   }
   
-.cbnb .planbox {
-    padding-bottom: 420px;
+  .cbnb .planbox {
+    padding-bottom: 400px; /* เพิ่มพื้นที่ด้านล่างเผื่อรูปและข้อความที่เรียงซ้อนกัน */
   }
   
   .cbnb .desc {
-    height: auto;
-    flex-direction: column;
+    height: auto !important; /* ปลดล็อกความสูง เส้นน้ำตาลจะได้หยุดพอดีตรงบรรทัดสุดท้าย */
+    min-height: unset;
+    flex-direction: column !important; /* บังคับให้ข้อความตกลงมาอยู่ใต้รูป */
     gap: 12px;
     padding: 15px;
   }
   
   .cbnb .d-img {
-    width: 100%;
+    width: 100% !important; /* บังคับให้รูปกางเต็มความกว้างของกล่อง */
     max-width: 100%;
-    aspect-ratio: 21 / 9;
+    aspect-ratio: 16 / 9; 
   }
 }
