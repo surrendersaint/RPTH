@@ -1,5 +1,5 @@
 .cbnb{--brown:#8a4b2a;--brown-d:#6f3b21;--navy:#0f1b3d;--navy-d:#080f26;--amber:#ffb347;--sand:#efe6d8;
-  max-width:900px;margin:0 auto;font:400 17px/1.7 Bai Jamjuree;color:var(--navy);background: var(--sand);}
+  max-width:900px;margin:0 auto;font:400 17px/1.7 Bai Jamjuree;color:var(--navy);}
 .cbnb *{box-sizing:border-box}
 .cbnb .sr{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
 .cbnb .ribs-brown{background:repeating-linear-gradient(90deg,var(--brown) 0 14px,var(--brown-d) 14px 18px)}
