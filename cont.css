@@ -8,7 +8,7 @@
   --tli: #e8eaed;
   max-width: 900px;
   margin: 0 auto;
-  font: 400 17px/1.7 Bai Jamjuree;
+  font: 400 17px/1.7 "Bai Jamjuree", Tahoma, Arial, sans-serif;
   color: var(--tli);
 }
 
@@ -104,7 +104,7 @@
 
 .cbnb .planbox {
   position: relative;
-  padding-bottom: 340px;
+  padding-bottom: 170px;
   margin-top: 14px;
 }
 
@@ -130,21 +130,10 @@
   border-right: 0;
 }
 
-.cbnb .w1 {
-  flex: 1;
-}
-
-.cbnb .w2 {
-  flex: 2;
-}
-
-.cbnb .w3 {
-  flex: 3;
-}
-
-.cbnb .w4 {
-  flex: 4;
-}
+.cbnb .w1 { flex: 1; }
+.cbnb .w2 { flex: 2; }
+.cbnb .w3 { flex: 3; }
+.cbnb .w4 { flex: 4; }
 
 .cbnb .size {
   font-weight: 300;
@@ -154,36 +143,32 @@
 .cbnb .desc {
   display: none;
   position: absolute;
-  left: 45%;
+  left: 0;
   right: 0;
-  bottom: -20px;
-  height: 340px;
+  bottom: 0;
+  height: 150px;
   border-left: 6px solid var(--brown);
-  padding: 24px 35px;
+  padding: 20px 0 0 14px;
   text-align: left;
   font-weight: 400;
   font-size: 17px;
   color: var(--tli);
   cursor: default;
-  overflow-y: auto;
-  -webkit-mask-image: linear-gradient(180deg, black 70%, transparent);
-  scrollbar-width: none;
 }
 
 .cbnb .dname {
   font-weight: 700;
 }
 
-.cbnb .zone:focus .desc,
-.cbnb .plan:not(:focus-within) .z0 .desc,
-.cbnb .zone:focus .d-img,
-.cbnb .plan:not(:focus-within) .z0 .d-img {
-  display: block; 
+.cbnb .zone:focus,
+.cbnb .plan:not(:focus-within) .z0 {
+  background: var(--navy);
+  color: #fff;
 }
 
 .cbnb .zone:focus .desc,
 .cbnb .plan:not(:focus-within) .z0 .desc {
-  display: flex; 
+  display: block;
 }
 
 .cbnb .cta {
@@ -202,26 +187,6 @@
   margin: 6px 0 14px;
 }
 
-.cbnb .d-text {
-  flex: 1 1 250px;
-  overflow-y: auto;
-  height: 100%;
-  -webkit-mask-image: linear-gradient(180deg, black 60%, transparent);
-  scrollbar-width: none;
-}
-
-.cbnb .d-img {
-  display: none;
-  position: absolute;
-  left: 0;
-  bottom: -20px;
-  width: 45%; 
-  height: 340px;
-  border-radius: 4px 0 0 4px;
-  border: 1px solid var(--brown-d);
-  border-right: none;
-}
-
 .cbnb .cta-btn {
   display: inline-block;
   background: var(--amber);
@@ -238,25 +203,16 @@
   }
   
   .cbnb .planbox {
-    padding-bottom: 500px;
-  }
-  
-  .cbnb .d-img {
-    width: 100%; 
-    height: 200px;
-    bottom: 260px; 
-    border-radius: 4px 4px 0 0;
-    border: 1px solid var(--brown-d);
-    border-bottom: none;
+    padding-bottom: 230px;
   }
   
   .cbnb .desc {
-    width: 100%;
-    left: 0;
-    height: 280px; 
-    bottom: -20px;
-    border-left: none; 
-    border-top: 6px solid var(--brown);
-    padding: 20px 15px;
+    height: 210px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cbnb .neon {
+    transition: none;
   }
 }
