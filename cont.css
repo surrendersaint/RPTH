@@ -104,7 +104,7 @@
 
 .cbnb .planbox {
   position: relative;
-  padding-bottom: 280px;
+  padding-bottom: 340px;
   margin-top: 14px;
 }
 
@@ -157,19 +157,18 @@
   left: 0;
   right: 0;
   bottom: 0;
-  height: 280px;
+  height: 340px;
   border-left: 6px solid var(--brown);
-  padding: 20px 14px;
+  padding: 24px 35px;
   text-align: left;
   font-weight: 400;
   font-size: 17px;
   color: var(--tli);
   cursor: default;
-  gap: 20px;
+  gap: 25px;
   align-items: flex-start;
-  flex-wrap: wrap;
-  overflow-y: auto;
-  scrollbar-width: none;
+  flex-wrap: wrap; 
+  overflow-y: auto; 
 }
 
 .cbnb .dname {
@@ -208,8 +207,8 @@
 }
 
 .cbnb .d-img {
-  flex: 1 1 200px;
-  max-width: 320px;
+  flex: 1 1 300px; 
+  max-width: 440px;
   aspect-ratio: 16 / 9;
   border-radius: 4px;
   border: 1px solid var(--brown-d);
