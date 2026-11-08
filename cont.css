@@ -141,6 +141,7 @@
 }
 
 .cbnb .img {
+  display: none;
   width: 100%;
   height: 41%;
   position: absolute;
@@ -176,7 +177,9 @@
 }
 
 .cbnb .zone:focus .desc,
-.cbnb .plan:not(:focus-within) .z0 .desc {
+.cbnb .plan:not(:focus-within) .z0 .desc,
+.cbnb .zone:focus .img,
+.cbnb .plan:not(:focus-within) .z0 .img {
   display: block;
 }
 
