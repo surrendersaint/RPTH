@@ -50,9 +50,6 @@
 .cbnb .m3{background:#0f0f14;color:#fff}.cbnb .m4{background:var(--pink);color:var(--ink)}
 .cbnb .m5{background:#f2efe6;color:#111}
  
-.cbnb .rules div{border-top:3px solid var(--ink);padding:8px 0}
-.cbnb .rules div:last-child{border-bottom:3px solid var(--ink)}
- 
 .cbnb .cta{margin-top:48px;color:#fff;padding:30px 24px}
 .cbnb .cta strong{display:block;font-size:30px;line-height:1.2}
 .cbnb .cta p{margin:6px 0 14px}
