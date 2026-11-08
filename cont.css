@@ -164,6 +164,8 @@
   font-size: 17px;
   color: var(--tli);
   cursor: default;
+  overflow: auto;
+  scrollbar-width: none;
 }
 
 .cbnb .dname {
