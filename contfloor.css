@@ -1,0 +1,234 @@
+.fpl {
+  --brown: #48352b;
+  --brown-d: #362a23;
+  --navy: #0f1b3d;
+  --navy-d: #080f26;
+  --amber: #ffb347;
+  --sand: #efe6d8;
+  --tli: #e8eaed;
+  --muted: #9aa0ab;
+  max-width: 900px;
+  margin: 0 auto;
+  font: 400 17px/1.7 "Bai Jamjuree", Tahoma, Arial, sans-serif;
+  color: var(--tli);
+}
+
+.fpl * {
+  box-sizing: border-box;
+}
+
+.fpl .kicker {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--amber);
+}
+
+.fpl .title {
+  font-size: clamp(34px, 8vw, 64px);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -1px;
+  margin: 6px 0 14px;
+}
+
+.fpl .facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 26px;
+}
+
+.fpl .fact {
+  border: 2px solid var(--brown);
+  padding: 6px 16px;
+  line-height: 1.25;
+}
+
+.fpl .fact-n {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.fpl .fact-l {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.fpl .dim {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.fpl .dim::before,
+.fpl .dim::after {
+  content: "";
+  flex: 1;
+  height: 10px;
+  background: linear-gradient(currentColor, currentColor) center/100% 2px no-repeat;
+}
+
+.fpl .dim::before {
+  border-left: 2px solid;
+}
+
+.fpl .dim::after {
+  border-right: 2px solid;
+}
+
+.fpl .box {
+  position: relative;
+  padding-bottom: calc(56.25% + 190px);
+}
+
+.fpl .plan {
+  position: relative;
+  display: flex;
+}
+
+.fpl .zone {
+  margin-left: -3px;
+  padding: 30px 4px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  outline: 0;
+  border: 3px solid var(--navy);
+  min-width: 0;
+  background: var(--sand);
+  color: var(--navy);
+}
+
+.fpl .zone:first-child {
+  margin-left: 0;
+}
+
+.fpl .zone:focus-visible {
+  outline: 3px solid var(--amber);
+  outline-offset: -6px;
+}
+
+.fpl .w1 {
+  flex: 1;
+}
+
+.fpl .w2 {
+  flex: 2;
+}
+
+.fpl .w3 {
+  flex: 3;
+}
+
+.fpl .w4 {
+  flex: 4;
+}
+
+.fpl .size {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.fpl .zone:focus,
+.fpl .plan:not(:focus-within) .z0 {
+  background: var(--navy);
+  color: #fff;
+}
+
+.fpl .zone:focus .panel,
+.fpl .plan:not(:focus-within) .z0 .panel {
+  display: block;
+}
+
+/* ภาพ 16:9 + คำอธิบาย */
+.fpl .panel {
+  display: none;
+  position: absolute;
+  top: calc(100% + 14px);
+  left: 0;
+  width: 100%;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--tli);
+  cursor: default;
+}
+
+.fpl .pic {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 3px solid var(--navy);
+  background-color: var(--brown-d);
+  background-size: cover;
+  background-position: center;
+  background-image: repeating-linear-gradient(90deg, var(--brown) 0 14px, var(--brown-d) 14px 18px);
+}
+
+.fpl .tag {
+  position: absolute;
+  left: 24px;
+  top: 22px;
+  padding: 2px 10px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(8, 15, 38, 0.75);
+}
+
+.fpl .tag::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background: #ff4d4d;
+}
+
+.fpl .desc {
+  margin-top: 14px;
+  padding: 12px 0 0 14px;
+  border-left: 6px solid var(--brown);
+  max-height: 150px;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.fpl .dname {
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .fpl .box {
+    padding-bottom: calc(56.25% + 250px);
+  }
+  
+  .fpl .zone {
+    font-size: 12px;
+    padding: 26px 2px;
+  }
+  
+  .fpl .desc {
+    max-height: 200px;
+  }
+  
+  .fpl .tag {
+    left: 20px;
+    top: 18px;
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+}
