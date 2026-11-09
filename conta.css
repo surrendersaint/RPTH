@@ -360,7 +360,7 @@
 }
 
 .cbnb .rwish-l div::before {
-  content: "\25A1";
+  content: "&#127995;";
   margin-right: 8px;
   font-weight: 700;
 }
