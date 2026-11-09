@@ -8,16 +8,6 @@
 .cbnb * {
   box-sizing: border-box;
 }
-
-.cbnb .season {
-  --s-a: var(--brown, #48352b);
-  --s-b: var(--brown-d, #362a23);
-  --s-edge: var(--navy, #0f1b3d);
-  --s-edge-d: var(--navy-d, #080f26);
-  --s-glow: var(--amber, #ffb347); 
-  --s-text: var(--tli, #e8eaed);
-  border: 6px solid var(--s-edge);
-}
  
 .cbnb .season {
   --s-a: #7a1f24;
