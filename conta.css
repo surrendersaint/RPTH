@@ -360,7 +360,7 @@
 }
 
 .cbnb .rwish-l div::before {
-  content: "&#127995;";
+  content: "&#x1F5BE;";
   margin-right: 8px;
   font-weight: 700;
 }
