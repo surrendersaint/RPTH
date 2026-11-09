@@ -414,3 +414,98 @@
     transition: none;
   }
 }
+
+.cbnb .fp {
+  overflow-x: auto;
+}
+
+.cbnb .fp svg {
+  display: block;
+  width: 100%;
+  min-width: 760px;
+  height: auto;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.cbnb .fp .ft {
+  fill: #e8eaed;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.cbnb .fp .dm {
+  fill: #9aa0ab;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-anchor: middle;
+}
+
+.cbnb .fp .wl {
+  fill: none;
+  stroke: #0f1b3d;
+  stroke-width: 6;
+}
+
+.cbnb .fp .wo {
+  fill: none;
+  stroke: #0f1b3d;
+  stroke-width: 9;
+}
+
+.cbnb .fp .rail {
+  fill: none;
+  stroke: #5a3e2b;
+  stroke-width: 5;
+}
+
+.cbnb .fp .o {
+  fill: none;
+  stroke: #0f1b3d;
+  stroke-width: 2.5;
+}
+
+.cbnb .fp .fa {
+  fill: #0f1b3d;
+  fill-opacity: .15;
+  stroke: #0f1b3d;
+  stroke-width: 2.5;
+}
+
+.cbnb .fp .rg {
+  fill: none;
+  stroke: #8a6a45;
+  stroke-width: 2;
+  stroke-dasharray: 6 5;
+}
+
+.cbnb .fp .gl {
+  fill: #8ab4ff;
+  stroke: #0f1b3d;
+  stroke-width: 1;
+}
+
+.cbnb .fp .lb {
+  fill: #0f1b3d;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.cbnb .fp .ls {
+  fill: #0f1b3d;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.cbnb .fp .gp {
+  fill: none;
+  stroke: #efe6d8;
+  stroke-width: 10;
+}
+
+.cbnb .fp .sm {
+  fill: #0f1b3d;
+  font-size: 12px;
+  font-weight: 500;
+  text-anchor: middle;
+}
