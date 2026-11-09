@@ -76,7 +76,6 @@
 .cbnb .photo {
   position: relative;
   min-height: 0;
-  background-color: var(--s-a);
   background-size: cover;
   background-position: center;
   border: 1px solid var(--s-a);
