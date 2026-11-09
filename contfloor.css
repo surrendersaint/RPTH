@@ -213,7 +213,7 @@
 
 @media (max-width: 600px) {
   .fpl .box {
-    padding-bottom: calc(56.25% + 250px);
+    padding-bottom: calc(56.25% + 300px);
   }
   
   .fpl .zone {
