@@ -1,0 +1,167 @@
+.cbnb {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cbnb * {
+  box-sizing: border-box;
+}
+
+.cbnb .scene {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.cbnb .scene div {
+  position: absolute;
+}
+
+.cbnb .img .scene {
+  aspect-ratio: auto;
+  height: 100%;
+  margin: 0;
+}
+
+.cbnb .sc-window {
+  border: 4px solid #080f26;
+  background-color: #1a2756;
+  background-size: cover;
+  background-position: center;
+}
+
+.cbnb .lounge .sc-window {
+  left: 68%;
+  top: 12%;
+  width: 24%;
+  height: 40%;
+}
+
+.cbnb .sc-ring {
+  left: 16%;
+  top: 14%;
+  width: 9%;
+  aspect-ratio: 1;
+  border: 4px solid var(--sc-glow);
+  border-radius: 50%;
+  box-shadow: 0 0 14px var(--sc-glow), inset 0 0 10px var(--sc-glow);
+}
+
+.cbnb .sc-rug {
+  left: 12%;
+  top: 82%;
+  width: 54%;
+  height: 12%;
+  border-radius: 50%;
+  background: #4a3326;
+}
+
+.cbnb .sc-sofa {
+  left: 10%;
+  top: 46%;
+  width: 48%;
+  height: 38%;
+}
+
+.cbnb .sc-back {
+  left: 8%;
+  top: 0;
+  width: 84%;
+  height: 60%;
+  background: var(--sc-sofa-d);
+  border-radius: 12px 12px 0 0;
+}
+
+.cbnb .sc-arm {
+  top: 26%;
+  width: 12%;
+  height: 64%;
+  background: var(--sc-sofa);
+  border-radius: 10px;
+}
+
+.cbnb .sc-arm.al {
+  left: 0;
+}
+
+.cbnb .sc-arm.ar {
+  right: 0;
+}
+
+.cbnb .sc-seat {
+  left: 6%;
+  top: 52%;
+  width: 88%;
+  height: 30%;
+  background: var(--sc-sofa);
+  border-radius: 8px;
+}
+
+.cbnb .sc-cush {
+  top: 14%;
+  width: 34%;
+  height: 42%;
+  background: var(--sc-sofa-l);
+  border-radius: 8px;
+}
+
+.cbnb .sc-cush.c1 {
+  left: 14%;
+}
+
+.cbnb .sc-cush.c2 {
+  left: 52%;
+}
+
+.cbnb .sc-leg {
+  top: 88%;
+  width: 3%;
+  height: 12%;
+  background: #1b1410;
+}
+
+.cbnb .sc-leg.l1 {
+  left: 10%;
+}
+
+.cbnb .sc-leg.l2 {
+  left: 87%;
+}
+
+.cbnb .lamp-glow {
+  left: 47%;
+  top: 8%;
+  width: 28%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--sc-glow) 45%, transparent) 0, transparent 68%);
+}
+
+.cbnb .lamp-shade {
+  left: 58%;
+  top: 30%;
+  width: 6%;
+  height: 9%;
+  background: var(--sc-glow);
+  clip-path: polygon(20% 0, 80% 0, 100% 100%, 0 100%);
+  box-shadow: 0 0 12px var(--sc-glow);
+}
+
+.cbnb .lamp-pole {
+  left: 60.8%;
+  top: 39%;
+  width: 0.5%;
+  height: 44%;
+  background: #1d1d26;
+}
+
+.cbnb .lamp-base {
+  left: 58.5%;
+  top: 82%;
+  width: 5%;
+  height: 2%;
+  background: #1d1d26;
+  border-radius: 4px;
+}
