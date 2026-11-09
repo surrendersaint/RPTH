@@ -202,8 +202,13 @@
   padding: 12px 0 0 14px;
   border-left: 6px solid var(--brown);
   max-height: 150px;
+}
+
+.fpl .tv {
   overflow: auto;
+  height: 100px;
   scrollbar-width: none;
+  -webkit-mask-image: linear-gradient(180deg, black 80%, transparent);
 }
 
 .fpl .dname {
