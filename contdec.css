@@ -58,6 +58,12 @@
   padding: 0 24px 16px;
 }
 
+.cbnb .dmain {
+  padding: 4px 24px 22px;
+  background: var(--tbg);
+  color: #fff;
+}
+
 .cbnb .dnow {
   display: inline-block;
   padding: 2px 10px;
@@ -93,17 +99,11 @@
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 1px;
-  color: #fff;
   text-shadow: 0 1px 8px rgba(0, 0, 0, .6);
 }
 
-.cbnb .dmain {
-  padding: 4px 24px 22px;
-  background: var(--tbg);
-  color: #fff;
-}
-
 .cbnb .ddesc {
+  margin-top: 10px;
   font-size: 15px;
   color: rgba(255, 255, 255, .82);
 }
@@ -139,4 +139,35 @@
     var(--tb) 0 14px,
     var(--ta) 14px 18px
   );
+}
+
+.cbnb .dlist {
+  padding: 6px 0;
+}
+
+.cbnb .dli {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 9px 16px;
+  border-top: 2px dashed rgba(15, 27, 61, .3);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.cbnb .dli:first-child {
+  border-top: 0;
+}
+
+.cbnb .dn {
+  flex: none;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--tbg);
+  color: var(--ta);
+  font-size: 14px;
+  font-weight: 700;
 }
