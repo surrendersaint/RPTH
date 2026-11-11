@@ -236,6 +236,7 @@
   max-width: 100%;
   max-height: 140px;
   margin: 0 auto;
+  filter: brightness(0) invert(16%) sepia(71%) saturate(450%) hue-rotate(187deg) brightness(78%) contrast(112%);
 }
 
 .cbnb .rgsend {
