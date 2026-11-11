@@ -1,0 +1,120 @@
+.cbnb .dth {
+  --ta: #ffd166;
+  --tb: #e5483d;
+  --tbg: #12301f;
+  --b1: #e5483d;
+  --b2: #ffd166
+}
+
+.cbnb .dlights {
+  height: 30px;
+  background: radial-gradient(circle at 12px 17px, var(--b1) 0 6px, transparent 7px) 0 0 / 56px 30px repeat-x, radial-gradient(circle at 40px 17px, var(--b2) 0 6px, transparent 7px) 0 0 / 56px 30px repeat-x, linear-gradient(rgba(255, 255, 255, .35), rgba(255, 255, 255, .35)) 0 9px / 100% 2px no-repeat, var(--tbg);
+}
+
+.cbnb .dmain {
+  padding: 18px 24px 24px;
+  background: var(--tbg);
+  color: #fff;
+}
+
+.cbnb .dnow {
+  display: inline-block;
+  padding: 2px 10px;
+  background: var(--ta);
+  color: var(--tbg);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.cbnb .dnow::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background: var(--tbg);
+}
+
+.cbnb .dname {
+  margin-top: 10px;
+  font-size: clamp(34px, 7vw, 56px);
+  line-height: 1.05;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--ta);
+}
+
+.cbnb .dsub {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.cbnb .ddesc {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #FFFFFFD1;
+}
+
+.cbnb .dpal {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.cbnb .dc {
+  width: 28px;
+  height: 28px;
+  border: 2px solid #fff;
+}
+
+.cbnb .c1 {
+  background: var(--ta);
+}
+
+.cbnb .c2 {
+  background: var(--tb);
+}
+
+.cbnb .c3 {
+  background: var(--tbg);
+}
+
+.cbnb .dstripe {
+  height: 12px;
+  background: repeating-linear-gradient(90deg, var(--tb) 0 14px, var(--ta) 14px 18px);
+}
+
+.cbnb .dlist {
+  padding: 6px 0;
+}
+
+.cbnb .dli {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 9px 16px;
+  border-top: 2px dashed #0F1B3D4C;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.cbnb .dli:first-child {
+  border-top: 0;
+}
+
+.cbnb .dn {
+  flex: none;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--tbg);
+  color: var(--ta);
+  font-size: 14px;
+  font-weight: 700;
+}
