@@ -232,16 +232,31 @@
 }
 
 .cbnb .rgsign .sig {
+  position: relative;
+  isolation: isolate;
   height: 120px;
-  background-color: var(--navy);
-  -webkit-mask-image: var(--sig);
-  mask-image: var(--sig);
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-  mask-position: center;
-  -webkit-mask-size: contain;
-  mask-size: contain;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.cbnb .rgsign .sig::before,
+.cbnb .rgsign .sig::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.cbnb .rgsign .sig::before {
+  background: var(--navy);
+  mix-blend-mode: lighten;
+}
+
+.cbnb .rgsign .sig::after {
+  background: var(--sand);
+  mix-blend-mode: multiply;
 }
 
 .cbnb .rgsend {
