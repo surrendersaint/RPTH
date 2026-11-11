@@ -8,10 +8,7 @@
 
 .cbnb .dlights {
   height: 30px;
-  background:
-    radial-gradient(circle at 12px 17px, var(--b1) 0 6px, transparent 7px) 0 0 / 56px 30px repeat-x,
-    radial-gradient(circle at 40px 17px, var(--b2) 0 6px, transparent 7px) 0 0 / 56px 30px repeat-x,
-    linear-gradient(rgba(255, 255, 255, .35), rgba(255, 255, 255, .35)) 0 9px / 100% 2px no-repeat;
+  background: radial-gradient(circle at 12px 17px, var(--b1) 0 6px, transparent 7px) 0 0 / 56px 30px repeat-x, radial-gradient(circle at 40px 17px, var(--b2) 0 6px, transparent 7px) 0 0 / 56px 30px repeat-x, linear-gradient(rgba(255, 255, 255, .35), rgba(255, 255, 255, .35)) 0 9px / 100% 2px no-repeat;
   background-color: var(--tbg);
 }
 
@@ -134,11 +131,7 @@
 
 .cbnb .dstripe {
   height: 12px;
-  background: repeating-linear-gradient(
-    90deg,
-    var(--tb) 0 14px,
-    var(--ta) 14px 18px
-  );
+  background: repeating-linear-gradient(90deg, var(--tb) 0 14px, var(--ta) 14px 18px);
 }
 
 .cbnb .dlist {
