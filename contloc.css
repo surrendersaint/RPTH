@@ -8,18 +8,39 @@
   --tli: #e8eaed;
   max-width: 900px;
   margin: 0 auto;
-  font: 400 17px/1.7 Bai Jamjuree;
+  font: 400 17px/1.7 "Bai Jamjuree", Tahoma, sans-serif;
   color: var(--tli);
 }
 
-.cbnb .lplate {
+.cbnb * {
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+.cbnb .ribs-brown {
+  background: repeating-linear-gradient(90deg, var(--brown) 0 14px, var(--brown-d) 14px 18px);
+}
+
+.cbnb .ribs-navy {
+  background: repeating-linear-gradient(90deg, var(--navy) 0 14px, var(--navy-d) 14px 18px);
+}
+
+.cbnb .heading {
+  font-size: clamp(28px, 5vw, 40px);
+  line-height: 1.15;
+  margin: 48px 0 12px;
+  font-weight: 700;
+}
+
+.cbnb .rplate {
   margin-top: 14px;
   border: 4px solid var(--navy);
   background: var(--sand);
   color: var(--navy);
 }
 
-.cbnb .lhead {
+.cbnb .rhead {
+  position: relative;
   display: flex;
   justify-content: space-between;
   gap: 10px;
@@ -31,13 +52,31 @@
   letter-spacing: 3px;
 }
 
+.cbnb .rhead::before,
+.cbnb .rhead::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9px;
+  height: 9px;
+  margin-top: -5px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #d9cdb8, #7d705f);
+}
+
+.cbnb .rhead::before {
+  left: 9px;
+}
+
+.cbnb .rhead::after {
+  right: 9px;
+}
+
 .cbnb .lpic {
   position: relative;
   aspect-ratio: 16 / 9;
-  background-color: var(--brown-d);
   background-size: cover;
   background-position: center;
-  background-image: repeating-linear-gradient(90deg, var(--brown) 0 14px, var(--brown-d) 14px 18px);
 }
 
 .cbnb .lpic-tag {
