@@ -8,7 +8,7 @@
   --tli: #e8eaed;
   max-width: 900px;
   margin: 0 auto;
-  font: 400 17px/1.7 "Bai Jamjuree", Tahoma, sans-serif;
+  font: 400 17px/1.7 Bai Jamjuree;
   color: var(--tli);
 }
 
@@ -75,7 +75,6 @@
   font-weight: 700;
   padding: 10px 24px;
   border: 3px solid var(--navy-d);
-  cursor: pointer;
 }
 
 .cbnb .rgintro {
@@ -157,7 +156,6 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  outline: 0;
   word-break: break-word;
 }
 
@@ -165,10 +163,6 @@
   content: attr(data-ph);
   color: rgba(15, 27, 61, .38);
   font-weight: 400;
-}
-
-.cbnb .rgv:focus {
-  background: #f2dfc2;
 }
 
 .cbnb .rgv.fix {
@@ -200,17 +194,12 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 30px;
-  outline: 0;
 }
 
 .cbnb .rgbox:empty::before {
   content: "\2610";
   color: rgba(15, 27, 61, .4);
   font-weight: 400;
-}
-
-.cbnb .rgbox:focus {
-  background: #f2dfc2;
 }
 
 .cbnb .rgnote {
@@ -220,13 +209,12 @@
 }
 
 .cbnb .rgsign {
-  min-height: 70px;
+  min-height: 90px;
   margin-top: 4px;
   padding: 8px 10px;
   border: 2px dashed var(--navy);
   font-size: 18px;
   font-weight: 600;
-  outline: 0;
 }
 
 .cbnb .rgsign:empty::before {
@@ -236,30 +224,11 @@
   font-size: 15px;
 }
 
-.cbnb .rgsign:focus {
-  background: #f2dfc2;
-}
-
-.cbnb .rgcopy {
-  padding: 14px 16px 18px;
-  border-top: 4px solid var(--navy);
-}
-
-.cbnb .rgcopy-t {
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 3px;
-}
-
-.cbnb .rgcopy-b {
-  margin-top: 8px;
-  padding: 12px 14px;
-  border: 2px dashed var(--navy);
-  background: rgba(15, 27, 61, .05);
-  font-size: 14.5px;
-  line-height: 1.8;
-  user-select: all;
-  -webkit-user-select: all;
+.cbnb .rgsign img {
+  display: block;
+  max-width: 100%;
+  max-height: 140px;
+  margin: 0 auto;
 }
 
 .cbnb .rgsend {
