@@ -208,11 +208,18 @@
   color: var(--brown);
 }
 
+.cbnb .rgf.ctr,
+.cbnb .rgf.ctr * {
+  text-align: center;
+}
+
+.cbnb .rgf.ctr .rgl {
+  justify-content: center;
+}
+
 .cbnb .rgsign {
-  min-height: 90px;
-  margin-top: 4px;
-  padding: 8px 10px;
-  border: 2px dashed var(--navy);
+  min-height: 70px;
+  margin-top: 6px;
   font-size: 18px;
   font-weight: 600;
 }
