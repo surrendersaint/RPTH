@@ -10,11 +10,11 @@
   margin: 0 auto;
   font: 400 17px/1.7 "Bai Jamjuree", Tahoma, sans-serif;
   color: var(--tli);
+  text-align: justify;
 }
 
 .cbnb * {
   box-sizing: border-box;
-  text-align: justify;
 }
 
 .cbnb .ribs-brown {
