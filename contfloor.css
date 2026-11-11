@@ -9,7 +9,7 @@
   --muted: #9aa0ab;
   max-width: 900px;
   margin: 0 auto;
-  font: 400 17px/1.7 "Bai Jamjuree", Tahoma, Arial, sans-serif;
+  font: 400 17px/1.7 Bai Jamjuree;
   color: var(--tli);
 }
 
