@@ -55,7 +55,7 @@
 .cbnb .dcap {
   position: relative;
   z-index: 2;
-  padding: 0 24px 16px;
+  padding: 0 24px 0;
 }
 
 .cbnb .dmain {
