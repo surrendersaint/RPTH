@@ -14,6 +14,7 @@
 
 .cbnb * {
   box-sizing: border-box;
+  text-align: justify;
 }
 
 .cbnb .ribs-brown {
