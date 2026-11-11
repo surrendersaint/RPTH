@@ -3,18 +3,59 @@
   --tb: #e5483d;
   --tbg: #12301f;
   --b1: #e5483d;
-  --b2: #ffd166
+  --b2: #ffd166;
 }
 
 .cbnb .dlights {
   height: 30px;
-  background: radial-gradient(circle at 12px 17px, var(--b1) 0 6px, transparent 7px) 0 0 / 56px 30px repeat-x, radial-gradient(circle at 40px 17px, var(--b2) 0 6px, transparent 7px) 0 0 / 56px 30px repeat-x, linear-gradient(rgba(255, 255, 255, .35), rgba(255, 255, 255, .35)) 0 9px / 100% 2px no-repeat, var(--tbg);
+  background:
+    radial-gradient(circle at 12px 17px, var(--b1) 0 6px, transparent 7px) 0 0 / 56px 30px repeat-x,
+    radial-gradient(circle at 40px 17px, var(--b2) 0 6px, transparent 7px) 0 0 / 56px 30px repeat-x,
+    linear-gradient(rgba(255, 255, 255, .35), rgba(255, 255, 255, .35)) 0 9px / 100% 2px no-repeat;
+  background-color: var(--tbg);
 }
 
-.cbnb .dmain {
-  padding: 18px 24px 24px;
-  background: var(--tbg);
-  color: #fff;
+.cbnb .dhero {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  min-height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--tbg);
+}
+
+.cbnb .dhero::before,
+.cbnb .dhero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.cbnb .dhero::before {
+  top: 0;
+  height: 70px;
+  background: linear-gradient(rgba(0, 0, 0, .5), transparent);
+}
+
+.cbnb .dhero::after {
+  bottom: 0;
+  height: 75%;
+  background: linear-gradient(transparent, var(--tbg));
+}
+
+.cbnb .dhero .dlights {
+  position: relative;
+  z-index: 2;
+  background-color: transparent;
+}
+
+.cbnb .dcap {
+  position: relative;
+  z-index: 2;
+  padding: 0 24px 16px;
 }
 
 .cbnb .dnow {
@@ -45,18 +86,26 @@
   letter-spacing: 3px;
   text-transform: uppercase;
   color: var(--ta);
+  text-shadow: 0 2px 14px rgba(0, 0, 0, .6);
 }
 
 .cbnb .dsub {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, .6);
+}
+
+.cbnb .dmain {
+  padding: 4px 24px 22px;
+  background: var(--tbg);
+  color: #fff;
 }
 
 .cbnb .ddesc {
-  margin-top: 10px;
   font-size: 15px;
-  color: #FFFFFFD1;
+  color: rgba(255, 255, 255, .82);
 }
 
 .cbnb .dpal {
@@ -85,36 +134,9 @@
 
 .cbnb .dstripe {
   height: 12px;
-  background: repeating-linear-gradient(90deg, var(--tb) 0 14px, var(--ta) 14px 18px);
-}
-
-.cbnb .dlist {
-  padding: 6px 0;
-}
-
-.cbnb .dli {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 9px 16px;
-  border-top: 2px dashed #0F1B3D4C;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.cbnb .dli:first-child {
-  border-top: 0;
-}
-
-.cbnb .dn {
-  flex: none;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--tbg);
-  color: var(--ta);
-  font-size: 14px;
-  font-weight: 700;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--tb) 0 14px,
+    var(--ta) 14px 18px
+  );
 }
