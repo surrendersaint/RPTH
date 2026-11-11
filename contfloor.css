@@ -214,25 +214,3 @@
 .fpl .dname {
   font-weight: 700;
 }
-
-@media (max-width: 600px) {
-  .fpl .box {
-    padding-bottom: calc(56.25% + 250px);
-  }
-  
-  .fpl .zone {
-    font-size: 12px;
-    padding: 26px 2px;
-  }
-  
-  .fpl .desc {
-    max-height: 200px;
-  }
-  
-  .fpl .tag {
-    left: 20px;
-    top: 18px;
-    font-size: 10px;
-    letter-spacing: 1px;
-  }
-}
