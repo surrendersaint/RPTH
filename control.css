@@ -215,7 +215,7 @@
 .cbnb .gc-memo-b {
   margin-top: 6px;
   padding-bottom: 4px;
-  border-bottom: 2px dashed #0F1B3D59;
+  border-bottom: 2px dashed var(--navy)59;
   font-size: clamp(0.8rem, 1vw, 1rem);
   line-height: 1.7;
 }
