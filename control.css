@@ -1,4 +1,3 @@
-
 .cbnb {
   max-width: 900px;
   margin: 0 auto;
@@ -10,8 +9,6 @@
   box-sizing: border-box;
 }
 
-/* ===== GENERAL ===== */
-
 .cbnb .ribs-navy {
   background: repeating-linear-gradient(90deg, var(--navy) 0 14px, var(--navy-d) 14px 18px);
 }
@@ -22,8 +19,6 @@
   font-weight: 700;
   line-height: 1.15;
 }
-
-/* ===== CARD HEADER ===== */
 
 .cbnb .gc-head {
   position: relative;
@@ -54,8 +49,6 @@
 .cbnb .gc-head::before { left: 9px; }
 .cbnb .gc-head::after { right: 9px; }
 
-/* ===== GUEST CARD ===== */
-
 .cbnb .gcard {
   margin-top: 14px;
   border: 4px solid var(--navy);
@@ -67,8 +60,6 @@
   display: grid;
   grid-template-columns: 34% 1fr;
 }
-
-/* Picture */
 
 .cbnb .gc-pic {
   position: relative;
@@ -102,8 +93,6 @@
   background: var(--amber);
 }
 
-/* Identity */
-
 .cbnb .gc-id {
   position: relative;
   display: flex;
@@ -135,8 +124,6 @@
   line-height: 1.5;
 }
 
-/* Status */
-
 .cbnb .gc-status {
   position: absolute;
   top: 16px;
@@ -152,8 +139,6 @@
   text-shadow: 0 0 8px var(--amber);
   box-shadow: 0 0 12px #FFB34766;
 }
-
-/* ===== RESPONSIVE ===== */
 
 @media (max-width: 700px) {
   .cbnb .gc-status {
@@ -175,8 +160,6 @@
     padding-right: 30px;
   }
 }
-
-/* ===== RP SECTION ===== */
 
 .cbnb .gc-rp {
   border-top: 4px solid var(--navy);
@@ -217,8 +200,6 @@
   font-weight: 500;
 }
 
-/* ===== MEMO SECTION ===== */
-
 .cbnb .gc-memo {
   margin-top: auto;
   padding-top: 14px;
@@ -237,8 +218,6 @@
   font-size: clamp(0.8rem, 1vw, 1rem);
   line-height: 1.7;
 }
-
-/* ===== FOOTER / BARCODE ===== */
 
 .cbnb .gc-bar {
   display: flex;
