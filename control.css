@@ -138,7 +138,7 @@
   font-weight: 700;
   letter-spacing: 2px;
   text-shadow: 0 0 8px var(--amber);
-  box-shadow: 0 0 12px rgba(var(--navy), 0.4);
+  box-shadow: 0 0 12px var(--nav);
 }
 
 @container (max-width: 560px) {
@@ -216,7 +216,7 @@
 .cbnb .gc-memo-b {
   margin-top: 6px;
   padding-bottom: 4px;
-  border-bottom: 2px dashed rgba(var(--navy), 0.35);
+  border-bottom: 2px dashed var(--nav);
   font-size: clamp(0.8rem, 1vw, 1rem);
   line-height: 1.7;
 }
