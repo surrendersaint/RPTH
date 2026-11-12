@@ -1,4 +1,5 @@
 .cbnb {
+  container-type: inline-size;
   max-width: 900px;
   margin: 0 auto;
   font: 400 17px/1.7 Bai Jamjuree;
@@ -140,7 +141,7 @@
   box-shadow: 0 0 12px #FFB34766;
 }
 
-@media (max-width: 700px) {
+@container (max-width: 560px) {
   .cbnb .gc-status {
     top: 22px;
     right: 18px;
