@@ -67,10 +67,6 @@
   position: relative;
   min-height: 260px;
   border-right: 4px solid var(--navy);
-  background-color: var(--brown-d);
-  background-size: cover;
-  background-position: center;
-  background-image: repeating-linear-gradient(90deg, var(--brown) 0 14px, var(--brown-d) 14px 18px);
 }
 
 .cbnb .gc-tag {
