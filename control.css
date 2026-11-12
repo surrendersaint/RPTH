@@ -1,0 +1,195 @@
+.cbnb {
+  max-width: 900px;
+  margin: 0 auto;
+  font: 400 17px/1.7 Bai Jamjuree;
+  color: var(--tli);
+}
+
+.cbnb * {
+  box-sizing: border-box;
+}
+
+.cbnb .ribs-navy {
+  background: repeating-linear-gradient(90deg, var(--navy) 0 14px, var(--navy-d) 14px 18px);
+}
+
+.cbnb .heading {
+  margin: 20px 0 12px;
+  font-size: clamp(28px, 5vw, 40px);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.cbnb .gcard {
+  margin-top: 14px;
+  border: 4px solid var(--navy);
+  background: var(--sand);
+  color: var(--navy);
+}
+
+.cbnb .gc-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 28px;
+  background: var(--navy);
+  color: var(--amber);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.cbnb .gc-main {
+  display: grid;
+  grid-template-columns: 34% 1fr;
+}
+
+.cbnb .gc-pic {
+  position: relative;
+  min-height: 260px;
+  border-right: 4px solid var(--navy);
+  background-color: var(--brown-d);
+  background-size: cover;
+  background-position: center;
+  background-image: repeating-linear-gradient(90deg, var(--brown) 0 14px, var(--brown-d) 14px 18px);
+}
+
+.cbnb .gc-tag {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  padding: 2px 10px;
+  background: var(--navy);
+  color: var(--amber);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.cbnb .gc-tag::before {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 7px;
+  border-radius: 50%;
+  background: var(--amber);
+}
+
+.cbnb .gc-id {
+  display: flex;
+  flex-direction: column;
+  padding: 18px 18px 16px;
+}
+
+.cbnb .gc-name {
+  font-size: clamp(30px, 6vw, 46px);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -1px;
+}
+
+.cbnb .gc-alias {
+  margin-top: 2px;
+  color: var(--brown);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.cbnb .gc-quote {
+  margin-top: 12px;
+  padding-left: 12px;
+  border-left: 6px solid var(--brown);
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.cbnb .gc-status {
+  align-self: flex-start;
+  margin-top: 14px;
+  padding: 1px 14px;
+  border: 2px solid var(--amber);
+  border-radius: 40px;
+  background: var(--navy-d);
+  color: var(--amber);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 0 0 8px var(--amber);
+  box-shadow: 0 0 12px rgba(255, 179, 71, .4);
+}
+
+.cbnb .gc-rp {
+  border-top: 4px solid var(--navy);
+}
+
+.cbnb .gc-rp-t {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.cbnb .gc-rp-t div:last-child {
+  color: var(--amber);
+}
+
+.cbnb .gc-rp-b {
+  padding: 18px 20px;
+  font-size: 16.5px;
+  line-height: 1.85;
+}
+
+.cbnb .gc-rp-b > div + div {
+  margin-top: 12px;
+}
+
+.cbnb .gc-act {
+  color: var(--brown);
+  text-align: justify;
+}
+
+.cbnb .gc-say {
+  padding-left: 12px;
+  border-left: 6px solid var(--brown);
+  font-weight: 500;
+}
+
+.cbnb .gc-note {
+  padding: 4px 16px 4px;
+  border-top: 4px solid var(--navy);
+}
+
+.cbnb .gc-note-b {
+  padding: 10px 4px;
+  font-size: 14.5px;
+  line-height: 1.7;
+}
+
+.cbnb .gc-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 16px;
+  background: var(--navy);
+  color: var(--amber);
+}
+
+.cbnb .gc-bars {
+  flex: 1;
+  max-width: 260px;
+  height: 22px;
+  background: repeating-linear-gradient(90deg, var(--amber) 0 2px, transparent 2px 5px, var(--amber) 5px 9px, transparent 9px 11px, var(--amber) 11px 12px, transparent 12px 16px);
+}
+
+.cbnb .gc-code {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  white-space: nowrap;
+}
