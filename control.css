@@ -20,6 +20,26 @@
   line-height: 1.15;
 }
 
+.cbnb .gc-head {
+  position: relative;
+}
+
+.cbnb .gc-head::before,
+.cbnb .gc-head::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  margin-top: -5px;
+  border-radius: 50%;
+  background: var(--sand);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, .55);
+}
+
+.cbnb .gc-head::before { left: 9px; }
+.cbnb .gc-head::after { right: 9px; }
+
 .cbnb .gcard {
   margin-top: 14px;
   border: 4px solid var(--navy);
@@ -159,13 +179,21 @@
   font-weight: 500;
 }
 
-.cbnb .gc-note {
-  padding: 4px 16px 4px;
-  border-top: 4px solid var(--navy);
+.cbnb .gc-memo {
+  margin-top: auto;
+  padding-top: 14px;
 }
 
-.cbnb .gc-note-b {
-  padding: 10px 4px;
+.cbnb .gc-memo-l {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.cbnb .gc-memo-b {
+  margin-top: 6px;
+  padding-bottom: 4px;
+  border-bottom: 2px dashed rgba(15, 27, 61, .35);
   font-size: 14.5px;
   line-height: 1.7;
 }
