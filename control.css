@@ -183,7 +183,7 @@
 .cbnb .gc-rp-b {
   padding: 18px 20px;
   line-height: 1.85;
-  font-size: clamp(1rem, 1.1vw, 1.5rem);
+  font-size: clamp(0.9rem, 1.1vw, 1.5rem);
   font-weight: 400;
 }
 
