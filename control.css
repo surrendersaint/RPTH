@@ -52,7 +52,7 @@
 
 .cbnb .gcard {
   max-width: 680px;
-  margin-top: 14px auto auto auto;
+  margin: 14px auto auto auto;
   border: 4px solid var(--navy);
   background: var(--sand);
   color: var(--navy);
