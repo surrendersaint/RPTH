@@ -1,3 +1,4 @@
+
 .cbnb {
   max-width: 900px;
   margin: 0 auto;
@@ -8,6 +9,8 @@
 .cbnb * {
   box-sizing: border-box;
 }
+
+/* ===== GENERAL ===== */
 
 .cbnb .ribs-navy {
   background: repeating-linear-gradient(90deg, var(--navy) 0 14px, var(--navy-d) 14px 18px);
@@ -20,8 +23,19 @@
   line-height: 1.15;
 }
 
+/* ===== CARD HEADER ===== */
+
 .cbnb .gc-head {
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 28px;
+  background: var(--navy);
+  color: var(--amber);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 3px;
 }
 
 .cbnb .gc-head::before,
@@ -34,11 +48,13 @@
   margin-top: -5px;
   border-radius: 50%;
   background: var(--sand);
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, .55);
+  box-shadow: inset 0 1px 3px #0000008C;
 }
 
 .cbnb .gc-head::before { left: 9px; }
 .cbnb .gc-head::after { right: 9px; }
+
+/* ===== GUEST CARD ===== */
 
 .cbnb .gcard {
   margin-top: 14px;
@@ -47,22 +63,12 @@
   color: var(--navy);
 }
 
-.cbnb .gc-head {
-  display: flex;
-  justify-content: space-between;
-  gap: 10px;
-  padding: 10px 28px;
-  background: var(--navy);
-  color: var(--amber);
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 3px;
-}
-
 .cbnb .gc-main {
   display: grid;
   grid-template-columns: 34% 1fr;
 }
+
+/* Picture */
 
 .cbnb .gc-pic {
   position: relative;
@@ -96,13 +102,17 @@
   background: var(--amber);
 }
 
+/* Identity */
+
 .cbnb .gc-id {
+  position: relative;
   display: flex;
   flex-direction: column;
   padding: 18px 18px 16px;
 }
 
 .cbnb .gc-name {
+  padding-right: 150px;
   font-size: clamp(30px, 6vw, 46px);
   font-weight: 700;
   line-height: 1.05;
@@ -120,14 +130,17 @@
   margin-top: 12px;
   padding-left: 12px;
   border-left: 6px solid var(--brown);
-  font-size: 16px;
+  font-size: clamp(0.8rem, 1vw, 1rem);
   font-style: italic;
   line-height: 1.5;
 }
 
+/* Status */
+
 .cbnb .gc-status {
-  align-self: flex-start;
-  margin-top: 14px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
   padding: 1px 14px;
   border: 2px solid var(--amber);
   border-radius: 40px;
@@ -137,8 +150,33 @@
   font-weight: 700;
   letter-spacing: 2px;
   text-shadow: 0 0 8px var(--amber);
-  box-shadow: 0 0 12px rgba(255, 179, 71, .4);
+  box-shadow: 0 0 12px #FFB34766;
 }
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 700px) {
+  .cbnb .gc-status {
+    top: 22px;
+    right: 18px;
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: var(--amber);
+    font-size: 0;
+    letter-spacing: 0;
+    text-shadow: none;
+    box-shadow: 0 0 10px var(--amber);
+  }
+
+  .cbnb .gc-name {
+    padding-right: 30px;
+  }
+}
+
+/* ===== RP SECTION ===== */
 
 .cbnb .gc-rp {
   border-top: 4px solid var(--navy);
@@ -179,6 +217,8 @@
   font-weight: 500;
 }
 
+/* ===== MEMO SECTION ===== */
+
 .cbnb .gc-memo {
   margin-top: auto;
   padding-top: 14px;
@@ -193,10 +233,12 @@
 .cbnb .gc-memo-b {
   margin-top: 6px;
   padding-bottom: 4px;
-  border-bottom: 2px dashed rgba(15, 27, 61, .35);
-  font-size: 14.5px;
+  border-bottom: 2px dashed #0F1B3D59;
+  font-size: clamp(0.8rem, 1vw, 1rem);
   line-height: 1.7;
 }
+
+/* ===== FOOTER / BARCODE ===== */
 
 .cbnb .gc-bar {
   display: flex;
