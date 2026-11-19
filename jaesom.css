@@ -1,14 +1,37 @@
-#jaesom,
-#jaesom-img,
-#jaesom-txt {
-  --size: 40%;
-  width: var(--size);
+#jaesom-image,
+#jaesom-text {
+  width: var(--size, 40%);
   min-width: 180px;
   margin: 0 auto;
   display: grid;
   place-items: center;
   background: none;
   overflow: visible;
+}
+
+#jaesom-image .jaesom-sizer,
+#jaesom-image .jaesom-sheet {
+  display: none;
+}
+
+#jaesom-image .jaesomfr {
+  background: var(--img) 0 0 / 200% 200% no-repeat;
+  box-shadow: 0 0 0 .5px rgba(0, 0, 0, .05);
+}
+
+#jaesom-image .jaesom2 > .jaesomfr { background-position: 100% 0; }
+#jaesom-image .jaesom3 > .jaesomfr { background-position: 0 100%; }
+#jaesom-image .jaesom4 > .jaesomfr { background-position: 100% 100%; }
+
+#jaesom-text .jaesoms {
+  display: none;
+}
+
+#jaesom-text .jaesomfr {
+  background: var(--paper, #F6EFE0);
+  color: var(--ink-front, var(--ink, #333));
+  box-shadow: 0 0 0 .5px rgba(0, 0, 0, .06);
+  overflow: hidden;
 }
 
 .jaesomw {
@@ -25,10 +48,6 @@
   height: auto;
   max-width: 100%;
   max-height: none;
-}
-
-#jaesom-txt .jaesoms {
-  display: none;
 }
 
 .jaesom-sizer {
@@ -81,29 +100,10 @@
   height: 100%;
 }
 
-.jaesom1 {
-  top: 0;
-  left: 0;
-}
-
-.jaesom2 {
-  top: 0;
-  left: 100%;
-  transform: translateZ(4px) rotateY(180deg);
-  transition-delay: .85s;
-}
-
-.jaesom3 {
-  top: 100%;
-  left: 0;
-  transform: translateZ(2px) rotateX(180deg);
-}
-
-.jaesom4 {
-  top: 100%;
-  left: 0;
-  transform: translateZ(1px) rotateX(180deg);
-}
+.jaesom1 { top: 0; left: 0; }
+.jaesom2 { top: 0; left: 100%; transform: translateZ(4px) rotateY(180deg); transition-delay: .85s; }
+.jaesom3 { top: 100%; left: 0; transform: translateZ(2px) rotateX(180deg); }
+.jaesom4 { top: 100%; left: 0; transform: translateZ(1px) rotateX(180deg); }
 
 .jaesomfr,
 .jaesomb {
@@ -113,36 +113,8 @@
   -webkit-backface-visibility: hidden;
 }
 
-#jaesom .jaesomfr,
-#jaesom-img .jaesomfr {
-  background: var(--img) 0 0 / 200% 200% no-repeat;
-  box-shadow: 0 0 0 .5px rgba(0, 0, 0, .05);
-}
-
-#jaesom .jaesom2 > .jaesomfr,
-#jaesom-img .jaesom2 > .jaesomfr {
-  background-position: 100% 0;
-}
-
-#jaesom .jaesom3 > .jaesomfr,
-#jaesom-img .jaesom3 > .jaesomfr {
-  background-position: 0 100%;
-}
-
-#jaesom .jaesom4 > .jaesomfr,
-#jaesom-img .jaesom4 > .jaesomfr {
-  background-position: 100% 100%;
-}
-
-#jaesom-txt .jaesomfr {
-  background: var(--paper, #F6EFE0);
-  color: var(--ink, #333);
-  overflow: hidden;
-  box-shadow: 0 0 0 .5px rgba(0, 0, 0, .06);
-}
-
 .jaesom-sheet {
-  position: absolute;
+  position: relative;
   width: 200%;
   height: 200%;
   box-sizing: border-box;
@@ -179,23 +151,8 @@
   line-height: 1;
 }
 
-.jaesomw:focus .jaesomp {
-  transform: none;
-  transition-delay: 0s;
-}
-
-.jaesomw:focus .jaesomf {
-  opacity: 1;
-  transition-delay: 1.5s;
-}
-
-.jaesomw:focus .jaesom2 {
-  transform: translateZ(0) rotateY(0);
-  transition-delay: 0s;
-}
-
+.jaesomw:focus .jaesomp { transform: none; transition-delay: 0s; }
+.jaesomw:focus .jaesomf { opacity: 1; transition-delay: 1.5s; }
+.jaesomw:focus .jaesom2 { transform: translateZ(0) rotateY(0); transition-delay: 0s; }
 .jaesomw:focus .jaesom3,
-.jaesomw:focus .jaesom4 {
-  transform: translateZ(0) rotateX(0);
-  transition-delay: .85s;
-}
+.jaesomw:focus .jaesom4 { transform: translateZ(0) rotateX(0); transition-delay: .85s; }
