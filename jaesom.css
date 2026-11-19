@@ -1,15 +1,12 @@
 #jaesom {
-  min-height: 100vh;
+  --size: 40%;
+  width: var(--size);
+  min-width: 180px;
+  margin: 0 auto;
   display: grid;
   place-items: center;
-  background: #ccc;
-  overflow: hidden;
-}
-
-@media {
-  #jaesom {
-    background: #2a2a2a;
-  }
+  background: none;
+  overflow: visible;
 }
 
 .jaesomw {
@@ -22,8 +19,10 @@
 .jaesoms {
   display: block;
   visibility: hidden;
-  max-width: 90vw;
-  max-height: 85vh;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: none;
 }
 
 .jaesomf,
