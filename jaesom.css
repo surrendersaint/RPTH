@@ -1,4 +1,6 @@
-#jaesom {
+#jaesom,
+#jaesom-img,
+#jaesom-txt {
   --size: 40%;
   width: var(--size);
   min-width: 180px;
@@ -23,6 +25,22 @@
   height: auto;
   max-width: 100%;
   max-height: none;
+}
+
+#jaesom-txt .jaesoms {
+  display: none;
+}
+
+.jaesom-sizer {
+  visibility: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 28px;
+  font-family: Sriracha, sans-serif;
+  font-size: clamp(1rem, 1.4vw, 1.35rem);
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 .jaesomf,
@@ -95,22 +113,52 @@
   -webkit-backface-visibility: hidden;
 }
 
-.jaesomfr {
+#jaesom .jaesomfr,
+#jaesom-img .jaesomfr {
   background: var(--img) 0 0 / 200% 200% no-repeat;
   box-shadow: 0 0 0 .5px rgba(0, 0, 0, .05);
 }
 
-.jaesom2 > .jaesomfr {
+#jaesom .jaesom2 > .jaesomfr,
+#jaesom-img .jaesom2 > .jaesomfr {
   background-position: 100% 0;
 }
 
-.jaesom3 > .jaesomfr {
+#jaesom .jaesom3 > .jaesomfr,
+#jaesom-img .jaesom3 > .jaesomfr {
   background-position: 0 100%;
 }
 
-.jaesom4 > .jaesomfr {
+#jaesom .jaesom4 > .jaesomfr,
+#jaesom-img .jaesom4 > .jaesomfr {
   background-position: 100% 100%;
 }
+
+#jaesom-txt .jaesomfr {
+  background: var(--paper, #F6EFE0);
+  color: var(--ink, #333);
+  overflow: hidden;
+  box-shadow: 0 0 0 .5px rgba(0, 0, 0, .06);
+}
+
+.jaesom-sheet {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  box-sizing: border-box;
+  padding: 28px;
+  font-family: Sriracha, sans-serif;
+  font-size: clamp(1rem, 1.4vw, 1.35rem);
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+  text-align: left;
+}
+
+.jaesom1 > .jaesomfr > .jaesom-sheet { top: 0; left: 0; }
+.jaesom2 > .jaesomfr > .jaesom-sheet { top: 0; left: -100%; }
+.jaesom3 > .jaesomfr > .jaesom-sheet { top: -100%; left: 0; }
+.jaesom4 > .jaesomfr > .jaesom-sheet { top: -100%; left: -100%; }
 
 .jaesomb {
   transform: rotateY(180deg);
@@ -127,7 +175,7 @@
 
 .jaesomb span {
   font-size: clamp(1rem, 2vw, 2.5rem);
-  font-family: Sriracha;
+  font-family: Sriracha, sans-serif;
   line-height: 1;
 }
 
