@@ -1,12 +1,4 @@
-.jaesomw {
-  position: relative;
-  outline: none;
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
-}
-
-body {
-  margin: 0;
+#jaesom {
   min-height: 100vh;
   display: grid;
   place-items: center;
@@ -14,10 +6,17 @@ body {
   overflow: hidden;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
+@media {
+  #jaesom {
     background: #2a2a2a;
   }
+}
+
+.jaesomw {
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .jaesoms {
