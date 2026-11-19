@@ -1,0 +1,152 @@
+.jaesomw {
+  position: relative;
+  outline: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #ccc;
+  overflow: hidden;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #2a2a2a;
+  }
+}
+
+.jaesoms {
+  display: block;
+  visibility: hidden;
+  max-width: 90vw;
+  max-height: 85vh;
+}
+
+.jaesomf,
+.jaesomst {
+  position: absolute;
+  inset: 0;
+}
+
+.jaesomf {
+  opacity: 0;
+  box-shadow: 0 0 40px rgba(0, 0, 0, .15);
+  transition: opacity .5s;
+}
+
+.jaesomst {
+  perspective: 1400px;
+}
+
+.jaesomp {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+  transform: translate(25%, 25%);
+  transition: transform .9s ease .85s;
+}
+
+.jaesomfl {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  transform-style: preserve-3d;
+  transform-origin: 0 0;
+  transition: transform .9s cubic-bezier(.5, .05, .2, 1);
+}
+
+.jaesomfl .jaesomfl {
+  width: 100%;
+  height: 100%;
+}
+
+.jaesom1 {
+  top: 0;
+  left: 0;
+}
+
+.jaesom2 {
+  top: 0;
+  left: 100%;
+  transform: translateZ(4px) rotateY(180deg);
+  transition-delay: .85s;
+}
+
+.jaesom3 {
+  top: 100%;
+  left: 0;
+  transform: translateZ(2px) rotateX(180deg);
+}
+
+.jaesom4 {
+  top: 100%;
+  left: 0;
+  transform: translateZ(1px) rotateX(180deg);
+}
+
+.jaesomfr,
+.jaesomb {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.jaesomfr {
+  background: var(--img) 0 0 / 200% 200% no-repeat;
+  box-shadow: 0 0 0 .5px rgba(0, 0, 0, .05);
+}
+
+.jaesom2 > .jaesomfr {
+  background-position: 100% 0;
+}
+
+.jaesom3 > .jaesomfr {
+  background-position: 0 100%;
+}
+
+.jaesom4 > .jaesomfr {
+  background-position: 100% 100%;
+}
+
+.jaesomb {
+  transform: rotateY(180deg);
+  background: var(--paper, #F6EFE0);
+  color: var(--ink, #333);
+  box-shadow: 0 0 0 .5px rgba(0, 0, 0, .1);
+  display: grid;
+  place-items: center;
+  container-type: size;
+}
+
+.jaesomb span {
+  font-size: 40px;
+  font-size: 35cqmin;
+  line-height: 1;
+}
+
+.jaesomw:focus .jaesomp {
+  transform: none;
+  transition-delay: 0s;
+}
+
+.jaesomw:focus .jaesomf {
+  opacity: 1;
+  transition-delay: 1.5s;
+}
+
+.jaesomw:focus .jaesom2 {
+  transform: translateZ(0) rotateY(0);
+  transition-delay: 0s;
+}
+
+.jaesomw:focus .jaesom3,
+.jaesomw:focus .jaesom4 {
+  transform: translateZ(0) rotateX(0);
+  transition-delay: .85s;
+}
